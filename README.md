@@ -11,7 +11,7 @@
 
 macOS 14+ · Intel ve Apple Silicon için tek Universal paket.
 
-ZIP'i açıp Custa.app dosyasını Uygulamalar klasörüne taşıyın. Eski Custa'yı kapatıp yeni sürümü açın. Uygulama menü çubuğunda çalışır; ⌥⌘V kısayoluyla açılır.
+ZIP'i açıp Custa.app dosyasını çalıştırın. 0.4.2 ve üstünde ilk açılıştaki **Uygulamalar’a taşı ve aç** düğmesi kurulumu ve doğru konumdan yeniden açılmayı tamamlar. Uygulama kapatılmadan önce açık görsel düzenlemelerinizi kaydedin. Elle kurmak isterseniz Custa.app dosyasını Uygulamalar klasörüne taşıyabilirsiniz. Uygulama menü çubuğunda çalışır; ⌥⌘V kısayoluyla açılır.
 
 ## Uygulama içinden güncelleme
 
