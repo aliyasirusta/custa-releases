@@ -6,28 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.4.2</title>
-      <sparkle:version>0.4.2</sparkle:version>
-      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+      <title>Custa 0.5.0</title>
+      <sparkle:version>0.5.0</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 28 Oct 2026 22:50:54 +0000</pubDate>
-      <description>## Custa 0.4.2 — Kolay kurulum
+      <pubDate>Wed, 28 Oct 2026 23:19:20 +0000</pubDate>
+      <description>## Custa 0.5.0 — Daha yoğun liste, hareketli işaretlemeler
 
-- İndirilenler, Masaüstü veya başka bir konumdan ilk açılışta “Uygulamalar’a taşı ve aç” yardımcısı gösterilir.
-- Tek onayla doğru konuma kopyalanır ve yeniden açılır. Kaynak indirme ve pano geçmişi korunur.
-- Sistem Uygulamalar klasörüne yazılamıyorsa kullanıcıya ait Uygulamalar klasörü önerilir.
-- Yüklü sürüm değiştirilmeden önce yeni kopyanın kod imzası doğrulanır. Yeni kopya açılamazsa eski sürüm geri yüklenmeye çalışılır.
-- İlgisiz uygulama üzerine yazma ve daha yeni sürümü eski sürümle değiştirme engellenir.
-- Kurulum ertelenirse güncelleme düğmesi Sparkle konum hatası yerine kurulum yardımcısını açar.
+- Metin veya görsel satırına tek tık tekrar panoya kopyalar. Görsel editörü yalnızca … → Düzenle ile açılır.
+- Kompakt görünüm: 11 punto normal ağırlıklı tek satır metin, daha küçük kart boşlukları ve 64 × 44 görsel önizlemeleri. Pencere boyutu aynı kaldı.
+- Uzun içeriğin üzerine gelerek metin ipucu görülebilir; OCR araması çalışmaya devam eder.
+- Editöre Seç aracı eklendi. Yeni çizim otomatik seçilir; sürükleyerek taşınır, köşe tutamaçlarından boyutlandırılır.
+- Ok/çizgi uçları ayrı taşınabilir; metin orantılı büyütülebilir. Kalem çizimleri ve opak kapatmalar da seçilebilir.
+- Delete seçili nesneyi siler; Esc seçimi veya devam eden sürüklemeyi bırakır. Taşıma, boyutlandırma ve silme geri alınabilir/yinelenebilir.
+- Seçim çerçevesi ve tutamaçlar PNG çıktısına veya panoya eklenmez.
 
-Çalışan Custa değiştirilmeden önce açık görsel düzenlemelerinizi kaydedin. Konum değişikliği için tek seferlik onay alınır; macOS güvenlik kontrolleri veya karantina işaretleri devre dışı bırakılmaz.
+Seçim bu editör oturumunda eklenen nesneler içindir. Daha önce PNG'ye kaydedilmiş çizimler görselin pikselleridir; ayrı nesne olarak seçilmez. Custa adı ve logosu korundu.
 
-macOS 14+, Intel ve Apple Silicon. Apple Developer ID/noter onayı henüz olmadığı için ilk internet indirmesinde macOS güvenlik uyarısı hâlâ çıkabilir. Bu uyarının kalıcı çözümü Apple imzalama/noter onayıdır. Gerçek grafik oturumunda taşıma ve yeniden başlatma testi henüz tamamlanmadı.
+macOS 14+ · Intel ve Apple Silicon · Sparkle imzalı güncelleme. Apple Developer ID/noter onayı henüz yoktur. Gerçek grafik oturumunda fare etkileşimleri henüz doğrulanmamıştır.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.4.2/Custa-0.4.2-macos-universal.zip" length="1752999" type="application/octet-stream" sparkle:edSignature="cCScbs/TaUW3YgFuLTrgbNwuleMxwCqhn7BW3T6SnLPxhVa1CVGmT5BwHLgpYPE4RQKghUPq7/xVrtIGwMnAAg=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.5.0/Custa-0.5.0-macos-universal.zip" length="1784705" type="application/octet-stream" sparkle:edSignature="DZ79jqK2BO1u6Rm3GcSSoDSN19AuTZVwP/kh4v+EeiORJ22U9JvLYpIXZBhFeAS4YxbLG2isMbuog025AAH9BA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3MVBXZu023V23h7856Rcd4YrPQUsGLyMRrut5Y1x5Ab9YoIbmotOuCco3EyyJxsLFxyBvLMBaYpW4X+MfSeVDw==
-length: 2512
+edSignature: Anvc3ZJIAca8R9wAlqAHSkSyalDrR4ZTx2tDfE1r9gvtEGkfB4xH0UZMuczEFrij6da8wEIB6bqSMeqZSOSMAQ==
+length: 2567
 -->
