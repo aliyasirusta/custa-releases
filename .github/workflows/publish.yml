@@ -1,0 +1,57 @@
+name: Publish signed Custa update
+on:
+  push:
+    branches: ['publish/v*']
+permissions:
+  contents: write
+concurrency:
+  group: public-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event.deleted == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: package
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: distribution
+      - name: Validate signed archive and version
+        run: python3 distribution/scripts/validate-update.py package/incoming distribution
+      - name: Publish downloadable package before updating feed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="$(cat package/incoming/version.txt)"
+          ARCHIVE="Custa-$VERSION-macos-universal.zip"
+          if gh release view "v$VERSION" >/dev/null 2>&1; then
+            mkdir -p existing
+            gh release download "v$VERSION" --pattern "$ARCHIVE" --dir existing
+            cmp "existing/$ARCHIVE" "package/incoming/$ARCHIVE"
+          else
+            gh release create "v$VERSION" "package/incoming/$ARCHIVE" "package/incoming/$ARCHIVE.sha256" --target main --title "Custa $VERSION" --prerelease --notes-file package/incoming/release-notes.md
+          fi
+      - name: Update signed appcast
+        working-directory: distribution
+        run: |
+          set -euo pipefail
+          cp ../package/incoming/appcast.xml appcast.xml
+          git config user.name 'Custa Release Bot'
+          git config user.email 'custa-release@users.noreply.github.com'
+          git add appcast.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish signed update feed"
+            git push origin HEAD:main
+          fi
+      - name: Remove temporary package branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          STAGING_BRANCH: ${{ github.ref_name }}
+        run: gh api --method DELETE "repos/$GH_REPO/git/refs/heads/$STAGING_BRANCH"
