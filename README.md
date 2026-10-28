@@ -1,4 +1,5 @@
 <div align="center">
+<img src="assets/app-icon.png" width="96" height="96" alt="Custa">
 <h1>Custa</h1>
 <p>Kopyaladıkların ve yakaladıkların, elinin altında.</p>
 <p>macOS için pano geçmişi, ekran görüntüleri, OCR, Base64, diff ve görsel düzenleme.</p>
