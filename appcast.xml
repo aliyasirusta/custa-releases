@@ -6,26 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.4.1</title>
-      <sparkle:version>0.4.1</sparkle:version>
-      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <title>Custa 0.4.2</title>
+      <sparkle:version>0.4.2</sparkle:version>
+      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 28 Oct 2026 22:34:21 +0000</pubDate>
-      <description>## Custa 0.4.1 — Yeni marka kimliği
+      <pubDate>Wed, 28 Oct 2026 22:50:54 +0000</pubDate>
+      <description>## Custa 0.4.2 — Kolay kurulum
 
-- Seçilen çift C/kart logosu uygulama ikonuna uygulandı.
-- Menü çubuğu simgesi aynı sembolün macOS açık/koyu temasına uyumlu tek renk sürümüyle yenilendi.
-- Panel başlığı ve ilk kurulum ekranı yeni sembolü kullanıyor.
-- Logo ortak vektör geometrisinden çiziliyor; yüksek çözünürlük ve küçük ikon boyutları için üretildi.
+- İndirilenler, Masaüstü veya başka bir konumdan ilk açılışta “Uygulamalar’a taşı ve aç” yardımcısı gösterilir.
+- Tek onayla doğru konuma kopyalanır ve yeniden açılır. Kaynak indirme ve pano geçmişi korunur.
+- Sistem Uygulamalar klasörüne yazılamıyorsa kullanıcıya ait Uygulamalar klasörü önerilir.
+- Yüklü sürüm değiştirilmeden önce yeni kopyanın kod imzası doğrulanır. Yeni kopya açılamazsa eski sürüm geri yüklenmeye çalışılır.
+- İlgisiz uygulama üzerine yazma ve daha yeni sürümü eski sürümle değiştirme engellenir.
+- Kurulum ertelenirse güncelleme düğmesi Sparkle konum hatası yerine kurulum yardımcısını açar.
 
-0.4.0 kuruluysa Ayarlar → Güncellemeleri denetle… düğmesiyle bu sürüme geçebilirsiniz. Daha eski sürümler için ZIP'i indirip Custa.app dosyasını Uygulamalar klasörüne taşıyın.
+Çalışan Custa değiştirilmeden önce açık görsel düzenlemelerinizi kaydedin. Konum değişikliği için tek seferlik onay alınır; macOS güvenlik kontrolleri veya karantina işaretleri devre dışı bırakılmaz.
 
-Universal paket: macOS 14+, Intel ve Apple Silicon. Paket ve güncelleme listesi Sparkle imzalıdır. Apple Developer ID/noter onayı henüz yoktur; ilk elle kurulumda macOS uyarısı görülebilir. Gerçek Mac oturumunda yükleme/yeniden başlatma doğrulaması henüz tamamlanmadı.
+macOS 14+, Intel ve Apple Silicon. Apple Developer ID/noter onayı henüz olmadığı için ilk internet indirmesinde macOS güvenlik uyarısı hâlâ çıkabilir. Bu uyarının kalıcı çözümü Apple imzalama/noter onayıdır. Gerçek grafik oturumunda taşıma ve yeniden başlatma testi henüz tamamlanmadı.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.4.1/Custa-0.4.1-macos-universal.zip" length="1721992" type="application/octet-stream" sparkle:edSignature="tGg7uLZzlSkOcz2bmr4RqD8y6VuM4x2Sc7uyIIbEpBLuq5IuW0V9pon6tPJ9pAPdqEXJo2w9QsK8TwEr8Ud7Cw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.4.2/Custa-0.4.2-macos-universal.zip" length="1752999" type="application/octet-stream" sparkle:edSignature="cCScbs/TaUW3YgFuLTrgbNwuleMxwCqhn7BW3T6SnLPxhVa1CVGmT5BwHLgpYPE4RQKghUPq7/xVrtIGwMnAAg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: G+MQ33AjmtgIWZfL4wGzD1SPWEAfyI0rw1lkbdSDcwTzSpEG71ywr70YC0E65ZJ9WQwskPe/jZYxQD0SRKBFDA==
-length: 2125
+edSignature: 3MVBXZu023V23h7856Rcd4YrPQUsGLyMRrut5Y1x5Ab9YoIbmotOuCco3EyyJxsLFxyBvLMBaYpW4X+MfSeVDw==
+length: 2512
 -->
