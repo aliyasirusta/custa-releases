@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Custa güncellemeleri</title>
+    <link>https://github.com/aliyasirusta/custa-releases/releases</link>
+    <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
+    <item>
+      <title>Custa 0.4.0</title>
+      <sparkle:version>0.4.0</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 28 Oct 2026 22:18:04 +0000</pubDate>
+      <description>## Custa 0.4.0 — Uygulama içinden güncelleme
+
+- Ayarlara “Güncellemeleri denetle…” düğmesi eklendi.
+- İsteğe bağlı otomatik güncelleme kontrolü eklendi. Yeni sürüm yüklenmeden önce onay istenir.
+- Sparkle 2.10.1 ile imzalı paket doğrulama, güncelleme yükleme ve yeniden başlatma desteği.
+- İmzalı güncelleme listesi ve paketler public dağıtım reposundan alınır; GitHub girişi gerekmez.
+- Uygulamanın kaynak kodu özel kalır. Pano içeriği güncelleme sunucusuna gönderilmez.
+
+0.3.0 ve önceki sürümlerden geçerken bu sürümü bir kez elle kurun. Eski Custa'yı kapatın, ZIP'teki Custa.app dosyasını Uygulamalar'a taşıyın, yeni sürümü açın. Yerel geçmişiniz korunur. Sonraki sürümler için Ayarlar → Güncellemeleri denetle… kullanılabilir.
+
+Universal paket: macOS 14+, Intel ve Apple Silicon.
+
+Ön sürüm: Apple Developer ID sertifikası bu ortamda bulunmadığı için Apple noter onayı yoktur; ilk kurulumda macOS güvenlik uyarısı gösterebilir. Sparkle paket imzası ve güncelleme listesi imzası ayrıca doğrulanır. Grafik oturumunda kurulum/yeniden başlatma testi henüz tamamlanmamıştır.
+</description>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.4.0/Custa-0.4.0-macos-universal.zip" length="2364494" type="application/octet-stream" sparkle:edSignature="x1U/4gMquZgvIzdzYGNqlyB2hbqNZQW4duBtl3qV4vu8TwSTlMHvo/zLV5EKSu6tkWDwTeSi3dwZqDY/JnuNDQ=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 4mQVdiZkoarmZvFo5abdqzbT4IlT5WMXeYUbNnKm558yF3khjKnCdTnQtw/9ewMmfwzUq64R/X9X8zE+qyA5Cg==
+length: 2418
+-->
