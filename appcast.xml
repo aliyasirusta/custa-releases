@@ -6,35 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.6.1</title>
-      <sparkle:version>0.6.1</sparkle:version>
-      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <title>Custa 0.7.0</title>
+      <sparkle:version>0.7.0</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 00:22:32 +0000</pubDate>
-      <description>## Custa 0.6.1 — Otomatik ekran görüntüleri ve güvenli düzenleme taslakları
+      <pubDate>Thu, 29 Oct 2026 00:36:15 +0000</pubDate>
+      <description># Custa 0.7.0
 
-- İlk kurulumdan klasör seçimi kaldırıldı. macOS ekran görüntüleri Spotlight işaretlerinden, sistem kayıt konumundan ve panodan otomatik algılanır; sistem kayıt konumu değişiklikleri takip edilir.
-- 0.6.0 izleme başlangıcından sonra Custa kapalıyken alınan görüntüler sonraki açılışta tamamlanır. Eski görüntüler için ayarlarda en yeni 300 kaydı isteğe bağlı içe aktarma bulunur.
-- Duraklatma ve duraklatılan zaman aralıkları yeniden başlatmalar arasında korunur; bu aralıkta alınan görüntüler sonradan doldurulmaz.
-- Editörde otomatik kurtarma taslağı, elle taslak kaydetme ve kapatırken Kaydet / Kaydetmeden kapat / İptal eklendi. Uygulamadan çıkışta da düzenlemeler kontrol edilir.
-- Taslaklar orijinal görüntüyü ve düzenlenebilir şekilleri ayrı saklar; geçmişten silinen görüntülerin taslakları Ayarlar → Taslaklar üzerinden yeniden açılabilir. Taslaklar kitaplıktan Çöp Sepeti'ne taşınabilir.
-- Kopyalayınca panel kapanır ve önceki uygulamaya dönülür; ayarlardan kapatılabilir. Otomatik yapıştırma yapılmaz.
-- Panoda hariç tutulacak uygulamalar, metin saklama süresi ve görsel geçmişi boyut sınırı eklendi. Varsayılan metin süresi Süresiz; sabitlenmemiş görsellerin sınırı 512 MB, kayıt sınırı 300'dür. Sabitlenenler ve taslaklar bu temizliğin dışındadır.
+- Ayarlar, duraklatma, kayıt menüsü ve düzenleme araçlarının tıklama alanları genişletildi. Düğmelerin sınırları, üzerine gelme ve basılma durumları belirginleştirildi.
+- Boş SwiftUI ayarlar sahnesi kaldırıldı; ayarlar menü çubuğundaki Custa panelinden açılır.
+- Kurulum açıklaması sadeleştirildi. Açılış başarısızlığı artık kopyalama hatasından ayrılır; kurulmuş uygulama ve önceki sürümün yedeği korunur, Finder’da gösterilebilir.
+- Şifre üretici: 8–128 karakter, büyük/küçük harf, rakam ve sembol seçenekleri, minimum rakam/sembol sayıları, benzer karakterleri hariç tutma ve tek tıkla kopyalama.
+- Şifreler varsayılan olarak Custa geçmişine eklenmez; isteğe bağlı kayıt açıkça seçilir. Hassas pano işareti eklenir. Diğer pano uygulamalarının bu işarete uyacağı garanti edilemez.
 
-### Erişim ve kapsam
-
-Otomatik ekran görüntüsü algılama macOS dosya erişimi, dosyadaki ekran görüntüsü işareti ve Spotlight kapsamına bağlıdır. Varsayılan sistem kayıt konumunda Spotlight indekslenmese de dosya işaretiyle yedek izleme yapılır. İzin verilmemiş veya Spotlight dışında kalan başka konumlar, işaret taşımayan üçüncü taraf yakalamalar ve dosyaya/panoya ulaşmadan silinen görüntüler için eksiksiz algılama garantisi yoktur. macOS dosya erişim izni isteyebilir; güvenlik denetimleri aşılmaz.
-
-Uygulama hariç tutma yalnızca yeni pano kayıtları içindir; kaynak işareti ve etkin uygulamaya dayanır. Arka planda kaynak belirtmeden panoya yazan uygulamaları kesin olarak ayırt etmek mümkün olmayabilir. Yerel geçmiş ve taslaklar şifrelenmeden saklanır; kullanıcı verileri sunucuya gönderilmez.
-
-macOS 14+ · Intel ve Apple Silicon · Sparkle imzalı güncelleme. Apple Developer ID/noter onayı henüz yoktur. UI otomasyon aracı izole demo uygulamasında zaman aşımına uğradı; gerçek tıklama, macOS izin diyaloğu ve Spotlight uçtan uca doğrulaması bu ortamda tamamlanmadı. Otomatik dosya/kurallar, kurtarma ve PNG kontrolleri ayrıca çalıştırıldı.
-
-0.6.0 etiketi CI test derlemesinde durdu; indirilebilir paket yayınlanmadı. Bu sürüm eski Swift derleyicisi için test sayı tiplerini açıkça belirler.
+Doğrulama: yerel otomatik testler ve universal derleme. İndirilen gerçek paketin macOS güvenlik onayı/kurulum arayüz testi tamamlanmadı. Developer ID ve Apple noter onayı yoktur; macOS güvenlik uyarısı çıkabilir. Önceki genel açılış hatasının cihaz üzerindeki kök nedeni doğrulanmadığından tamamen giderildiği iddia edilmez.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.6.1/Custa-0.6.1-macos-universal.zip" length="2036904" type="application/octet-stream" sparkle:edSignature="FWMdFdxa1WM0lptoabSTKH2UVDJ2w5ZDafSKIBdDi35TCNi6rJ3euGXI8UsPFo4Tdx2TT/akYmyKB0/9b4M2Bw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.7.0/Custa-0.7.0-macos-universal.zip" length="2103728" type="application/octet-stream" sparkle:edSignature="XHszwUKrOTPo+kf18ddkk2gfI+smfDE15mKmvE7ReKGjB3r2JK5elq+kNMQpaW2fWbnVFqzJOgYQOQC/bPUlBw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: tam+++3rHUtyD9SUzBBwFqiaMfuvAQgc20GvlQvFroyPIWCpLTwnsmUt3jks8x1D1tQItCq2JA61om6H5HM5CQ==
-length: 4105
+edSignature: hq/yC5aBezq7f/acCknglly7asEvEvS6F/vF3WtxRUFhkg499/6UfwHf6MYgqk6o4UA0V8+2CUAs6HyTefFZAw==
+length: 2486
 -->
