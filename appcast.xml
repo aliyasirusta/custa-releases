@@ -6,25 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.9.2</title>
-      <sparkle:version>0.9.2</sparkle:version>
-      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <title>Custa 0.9.3</title>
+      <sparkle:version>0.9.3</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 10:25:47 +0000</pubDate>
-      <description># Custa 0.9.2
+      <pubDate>Thu, 29 Oct 2026 10:31:42 +0000</pubDate>
+      <description># Custa 0.9.3 — 0.9.1 davranışına dönüş
 
-- Şifreler ve açıklamalar artık `~/Library/Application Support/Custa/passwords.json` dosyasında **şifrelenmeden** saklanır. Bu değişiklik, Anahtar Zinciri onaylarını kaldırmak isteyen kullanıcı tercihi doğrultusunda yapılmıştır.
-- Normal açma, kopyalarken kaydetme, açıklama düzenleme ve silme işlemlerinde Anahtar Zinciri’ne erişilmez ve bu izin penceresi tetiklenmez.
-- Eski Anahtar Zinciri kayıtları otomatik okunmaz veya silinmez. Ayarlar → Şifre saklama → Eski Anahtar Zinciri kayıtlarını içe aktar, yalnızca kullanıcı seçtiğinde eski kayıtları okur; macOS bu işlemde izin isteyebilir.
-- İçe aktarma mevcut yerel kayıtlarla birleştirilir; aynı şifre çoğaltılmaz. İzin reddedilirse yerel veriler değiştirilmez.
-- JSON kaydı atomiktir; dosya izinleri 0600 olarak ayarlanır. Bu izinler dosyayı şifrelemez. Okunamayan/bozuk dosya yeni kayıtla veya silme işlemiyle üzerine yazılmaz.
+Kullanıcı isteğiyle 0.9.2 değişiklikleri geri alındı. Uygulama kaynak kodu 0.9.1 ile aynıdır; daha yeni sürüm numarası mevcut kullanıcılara otomatik güncelleme sunmak içindir.
 
-Doğrulama: yerel diske kaydetme/yeniden açma, dosya izinleri, normal işlemlerde Anahtar Zinciri okuyucusuna başvurulmaması, açık içe aktarma/tekilleştirme, reddedilen içe aktarma ve bozuk dosya koruma testleri; mevcut regresyon kontrolleri ve universal derleme. Gerçek Anahtar Zinciri içe aktarma izin penceresi etkileşimli olarak sınanmadı.
+- Şifreler ve açıklamalar yeniden macOS Anahtar Zinciri’nde saklanır. Sistem erişim izni isteyebilir.
+- 0.9.1 boş liste yerleşimi düzeltmesi ve önceki pencere/kısayol özellikleri korunur.
+- 0.9.2’deki passwords.json dosyası otomatik okunmaz, taşınmaz veya silinmez. Yalnızca 0.9.2’de oluşturulmuş yerel şifreler Anahtar Zinciri listesinde görünmez; dosyada korunur.
+
+Doğrulama: Sources/Custa ve Tests/Smoke kaynakları 0.9.1 etiketiyle karşılaştırıldı; GitHub otomatik regresyon testleri ve universal derleme yayın öncesi çalıştırılır.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.9.2/Custa-0.9.2-macos-universal.zip" length="2328565" type="application/octet-stream" sparkle:edSignature="pdHhKxjbfyhNYKCvub/gqO0yAhBOw0/GQy3jjQ9AFyRAaKUAo8eKNDpzeEp5ZEefz21UKbq5ALUdlhDzMIgXCA=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.9.3/Custa-0.9.3-macos-universal.zip" length="2309915" type="application/octet-stream" sparkle:edSignature="2mqWNx10i7Fd6b7VBX4ZdIWMz1pZHgxrQSTy9GKwbxkFeCI+fnEPSrQ+Xl/9P9G3Q9a64mSfmS6En4MI34C2CA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xHng+x/kiYHQlBMJjjSwokeh4c28fsLGhnm4g/pIIf+kYkoRqFiT72hKis89yRy02T+rAU1Qy8KQ8m/QDhSUDA==
-length: 2568
+edSignature: 0B1xDE/BrO61Rq3uoR3sH6afsZh0gT5+1r2ddNp3L4Lq3k7o+MynTcWzV1G44EZvP2yMfJmqrEQ3NJUMYbTvCg==
+length: 2065
 -->
