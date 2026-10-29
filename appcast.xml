@@ -6,27 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.11.0</title>
-      <sparkle:version>0.11.0</sparkle:version>
-      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <title>Custa 0.12.0</title>
+      <sparkle:version>0.12.0</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 11:28:03 +0000</pubDate>
-      <description># Custa 0.11.0
+      <pubDate>Thu, 29 Oct 2026 22:44:52 +0000</pubDate>
+      <description># Custa 0.12.0
 
-- Görsel editöründeki sistem renk penceresi kaldırıldı. Renk düğmesinin altında hazır renkler, RGB sürgüleri ve HEX girişi olan uygulama içi palet açılır.
-- Metin karşılaştırma yenilendi: iki düzenlenebilir metin alanı, kelime/karakter sayaçları, temizleme, yer değiştirme, Karşılaştır (⌘Enter), yalnızca farkları gösterme ve önceki/sonraki farka gitme eklendi. Satırlar pencere genişliğine göre sarılır, değişiklikler satır içinde vurgulanır; işlemler cihazda yapılır.
-- Şifre açıklaması alanlarındaki örnek isimler kaldırılıp Açıklama yazınız olarak değiştirildi.
-- Ana serbest pencerenin yan kenardan bağımsız genişlik/yükseklik değişimi kapatıldı. Alt iki köşedeki tutamaçlar 420:540 içerik oranını korur; minimum boyut ve görünür ekran sınırları gözetilir. Editör ve karşılaştırma gibi araç pencereleri normal boyutlandırılabilir kalır.
-- Menü çubuğu paneline dönülürken büyük pencerenin boyut/konum bilgisi kullanılmaz. Panel her defasında 420×540 olarak yeniden hazırlanıp güncel menü simgesine bağlanır; hızlı geçişlerde eski açılış isteği iptal edilir. Ekran kenarlarında macOS paneli ekrana sığdırabilir.
+- Görsel normalizasyonu, PNG üretimi, içerik özeti ve geçmiş dosyası yazımları arka plan kuyruğuna taşındı. Metin geçmişi yazımları kısa aralıklarla birleştirilir; kapanışta son durum diske tamamlanır.
+- Liste için 160 piksellik küçük görseller ve sınırlı önizleme önbelleği eklendi. Aynı görsele eşzamanlı istekler tek üretimde birleşir. Büyük önizlemeler ekrana uygun boyutta yüklenir; düzenleme/dışa aktarma orijinali kullanır.
+- Editör PNG çıktısı, değişmeyen bir anlık görüntü üzerinden arka planda hazırlanır.
+- Ekran görüntüsü aktarımında aynı anda en fazla iki görsel işlenir. Görsel kaydı tamamlanmadan yakalama tamamlandı sayılmaz. Temizleme sırasında bekleyen eski kayıtlar geri gelmez; başarısız metadata yazımı mevcut dosyaları silmez.
+- Menü paneli artık imlecin bulunduğu ekranın kullanılabilir alanının sağ üstüne, 8 puan boşlukla açılır. Serbest pencerenin taşınması ve köşeden boyutlandırılması korunur.
 
-Tasarım referansı: https://charactercalculator.com/tr/text-compare/ (iki metin alanı, sayaçlar ve Karşılaştır akışı).
+Ölçüm: izole 4K testinde UI çağrısı yaklaşık 0,02 ms’de geri döndü; diske kayıt dahil işlem yaklaşık 96 ms sürdü. Önbellekteki küçük görsele erişim yaklaşık 0,03 ms idi. Bu rakamlar kurulu uygulamanın tüm RAM/CPU tüketimi değildir; stres testindeki tepe yerleşik bellek önceki ölçümden daha yüksek çıktı. Genel RAM azalması, uzun dönem kararlılığı ve gerçek OCR yükü henüz doğrulanmış değildir.
 
-Doğrulama: renk kodu çözümleme, kelime sayımı, iki köşeden oran/karşı köşe/minimum boyut/ekran sınırı geometrisi, mevcut diff regresyon testleri ve universal derleme. Gerçek fareyle köşe sürükleme ve çoklu ekran geçişlerinin tamamı etkileşimli olarak doğrulanmadı.
+Doğrulama: mevcut regresyon testleri, asenkron kayıt/temizleme/önbellek/çıktı testleri, sağ üst konum geometrisi ve universal derleme. Gerçek çoklu ekran/fare etkileşimlerinin tamamı bu ortamda doğrulanmadı.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.11.0/Custa-0.11.0-macos-universal.zip" length="2553756" type="application/octet-stream" sparkle:edSignature="KYsVKqyQC3qgdkL7ypB+m0fJzMkrxoxxQ2gcN3VcOaqjZIXXz5Ve3WovmGQUIcvcdgeOU/Aiy5yNUPFKkq3YDg=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.0/Custa-0.12.0-macos-universal.zip" length="2647142" type="application/octet-stream" sparkle:edSignature="9ugfBz3WCUwYZD3eGuEsbdTByViDwWr9XkcBz8aB0LxecM+2Lysfoi3V8wRx86fCt9uBsVP0Qdb54quUV4dEAQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: T13kDTHCskANuaH63dHgsdJfhekvxf3A82OvqipFXBW0yUrOl3KkG13rmgo1kHNFJMUyg8ZqdhyMDdbj6XDkDQ==
-length: 2932
+edSignature: igXa206HBC7G9mSuxjIqvrDXzG9Yq4f5W/4ti53BF5se1r7r8jlmZeORMTIcHpYwl9yF7BfIOCC+njY6fEF5Cw==
+length: 2968
 -->
