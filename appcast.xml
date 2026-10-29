@@ -6,25 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.9.3</title>
-      <sparkle:version>0.9.3</sparkle:version>
-      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+      <title>Custa 0.10.0</title>
+      <sparkle:version>0.10.0</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 10:31:42 +0000</pubDate>
-      <description># Custa 0.9.3 — 0.9.1 davranışına dönüş
+      <pubDate>Thu, 29 Oct 2026 10:57:07 +0000</pubDate>
+      <description># Custa 0.10.0
 
-Kullanıcı isteğiyle 0.9.2 değişiklikleri geri alındı. Uygulama kaynak kodu 0.9.1 ile aynıdır; daha yeni sürüm numarası mevcut kullanıcılara otomatik güncelleme sunmak içindir.
+- Kayıtların üzerinde 650 ms bekleyince veya listede Space tuşuna basınca tam metin/büyük görsel önizlemesi açılır. Metinde satır sonları korunur, görselde piksel boyutları ve Düzenle bulunur. Normal tıklama yine kopyalar.
+- ⌘1–⌘9, o anki filtre ve arama sonuçlarının ilk dokuz kaydını kopyalar; numaralar satırların yanında gösterilir. Şifreler sekmesine ve metin düzenleme araçlarına uygulanmaz.
+- Liste tek bir yoğun düzene alındı. Kompakt/Rahat kaldırıldı; Ayarlar → Tema bölümüne Normal/Saydam seçimi eklendi. Pencere boyutlandırma aynı şekilde çalışır; saydam tema sistemin saydamlık ayarlarına uyar.
+- Sabitlenen kayıtlar listenin üstünde ince bir bölüm ayırıcıyla ayrılır.
+- Yeni kayıtlarda algılanan kaynak uygulama, ilk/son kopyalama zamanı ve izlenen kopyalama sayısı saklanır. Kaynak, pano ipucu veya etkin uygulamadan tahmin edilir; eski verilerde bilinmeyen bilgiler uydurulmaz. Dosyadan algılanan ekran görüntüsünün kopyalama sayısı ilk gerçek kopyalamaya kadar sıfırdır.
+- ↑↓ gezinme ve Enter kopyalama tüm listeye uygulanır. Filtreli aramada ↑↓ ile seçim yaptıktan sonra Space önizler; arama yazarken normal boşluk kullanılabilir.
+- Seçili kaydı sabitle/bırak için ⇧⌘S, silmek için ⌥⌘⌫ varsayılanları eklendi ve ayarlardan değiştirilebilir. ⌘1–9 hızlı kopyalamaya ayrılmıştır.
+- Şifreler bölümü Anahtar Zinciri’nde saklanmaya devam eder. Şifrelerin üzerine gelince önizleme açılmaz; gösterme işlemi açıkça yapılır.
 
-- Şifreler ve açıklamalar yeniden macOS Anahtar Zinciri’nde saklanır. Sistem erişim izni isteyebilir.
-- 0.9.1 boş liste yerleşimi düzeltmesi ve önceki pencere/kısayol özellikleri korunur.
-- 0.9.2’deki passwords.json dosyası otomatik okunmaz, taşınmaz veya silinmez. Yalnızca 0.9.2’de oluşturulmuş yerel şifreler Anahtar Zinciri listesinde görünmez; dosyada korunur.
-
-Doğrulama: Sources/Custa ve Tests/Smoke kaynakları 0.9.1 etiketiyle karşılaştırıldı; GitHub otomatik regresyon testleri ve universal derleme yayın öncesi çalıştırılır.
+Doğrulama: eski kayıtların çözülmesi, yeni metadata alanlarının kalıcılığı, ilk/son kopyalama ve sayaç güncellemeleri, ekran görüntüsünün ilk gerçek kopyalaması, ⌘1–9 eşlemesi ve ayrılmış kombinasyonların korunması; mevcut regresyon testleri ve universal derleme. İzole demo uygulamasında yoğun liste, ayırıcılar ve numaralar gözlendi. Etkileşim aracı pencerenin kullanıcı tarafından değiştiğini bildirerek tuş gönderimini engelledi; gerçek hover/klavye önizleme ve saydam tema etkileşimlerinin tamamı doğrulanamadı.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.9.3/Custa-0.9.3-macos-universal.zip" length="2309915" type="application/octet-stream" sparkle:edSignature="2mqWNx10i7Fd6b7VBX4ZdIWMz1pZHgxrQSTy9GKwbxkFeCI+fnEPSrQ+Xl/9P9G3Q9a64mSfmS6En4MI34C2CA=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.10.0/Custa-0.10.0-macos-universal.zip" length="2419353" type="application/octet-stream" sparkle:edSignature="yQmfwLMx96GAzOv/Mu/Ttw0OaVFGNhvePPwh7YvafNZeENo7y6dFhfLu0lNicLiPmGKw0wN0CaMhNVnZA9w+Bw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 0B1xDE/BrO61Rq3uoR3sH6afsZh0gT5+1r2ddNp3L4Lq3k7o+MynTcWzV1G44EZvP2yMfJmqrEQ3NJUMYbTvCg==
-length: 2065
+edSignature: coadU4sJA1a7rSOsNUWVGxD1g3JMLGk8Bjt3uqaZYFC6XxqGhTn8hsBhjOSIj8qrh653TaisGHXAIO4I2Uo0Ag==
+length: 3421
 -->
