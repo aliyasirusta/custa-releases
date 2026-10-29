@@ -6,25 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.7.0</title>
-      <sparkle:version>0.7.0</sparkle:version>
-      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <title>Custa 0.8.0</title>
+      <sparkle:version>0.8.0</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 00:36:15 +0000</pubDate>
-      <description># Custa 0.7.0
+      <pubDate>Thu, 29 Oct 2026 01:00:28 +0000</pubDate>
+      <description># Custa 0.8.0
 
-- Ayarlar, duraklatma, kayıt menüsü ve düzenleme araçlarının tıklama alanları genişletildi. Düğmelerin sınırları, üzerine gelme ve basılma durumları belirginleştirildi.
-- Boş SwiftUI ayarlar sahnesi kaldırıldı; ayarlar menü çubuğundaki Custa panelinden açılır.
-- Kurulum açıklaması sadeleştirildi. Açılış başarısızlığı artık kopyalama hatasından ayrılır; kurulmuş uygulama ve önceki sürümün yedeği korunur, Finder’da gösterilebilir.
-- Şifre üretici: 8–128 karakter, büyük/küçük harf, rakam ve sembol seçenekleri, minimum rakam/sembol sayıları, benzer karakterleri hariç tutma ve tek tıkla kopyalama.
-- Şifreler varsayılan olarak Custa geçmişine eklenmez; isteğe bağlı kayıt açıkça seçilir. Hassas pano işareti eklenir. Diğer pano uygulamalarının bu işarete uyacağı garanti edilemez.
+- Üst başlıktaki anahtar düğmesi şifre üreticiyi aynı panelde açar; ayrı pencere açılmaz.
+- Şifre uzunluğu elle girilebilir (8–128); artırma/azaltma düğmeleri de kullanılabilir.
+- Tümü / Metinler / Görseller / Sabitlenenler yanında Şifreler bölümü eklendi.
+- Açıkça üretilen her yeni şifre açıklamasıyla otomatik kaydolur. Paneli yalnızca açmak kayıt üretmez.
+- Şifreler ve açıklamaları normal history.json dosyasından ayrı, macOS Anahtar Zinciri’nde saklanır. Anahtar Zinciri erişimi başarısız olursa kaydedildi mesajı gösterilmez ve mevcut kayıtlar değiştirilmez.
+- Açıklama ekleme/düzenleme (örneğin Grafana), açıklamayla arama, göster/gizle, hassas olarak kopyalama ve onayla silme eklendi. Panel kapanınca gösterilen şifre yeniden gizlenir.
+- Önceki pano metinleri üç nokta → Şifrelere ekle ile eklenebilir. Pano geçmişindeki özgün kayıt korunur; mevcut düz metin kopyaları otomatik silinmez.
+- Panel açılış/kapanış animasyonu kapatıldı; her açılışta menü çubuğu konumu ve görünüm yerleşimi güncellenir. macOS ekran kenarlarında paneli ekrana sığdırabilir.
 
-Doğrulama: yerel otomatik testler ve universal derleme. İndirilen gerçek paketin macOS güvenlik onayı/kurulum arayüz testi tamamlanmadı. Developer ID ve Apple noter onayı yoktur; macOS güvenlik uyarısı çıkabilir. Önceki genel açılış hatasının cihaz üzerindeki kök nedeni doğrulanmadığından tamamen giderildiği iddia edilmez.
+Doğrulama: şifre üretimi ve şifre kaydı/açıklama model testleri, mevcut regresyon testleri, Intel/Apple Silicon derlemesi. Gerçek Anahtar Zinciri izin penceresi ve çoklu ekran konumlandırması etkileşimli olarak doğrulanmadı. Developer ID/noter onayı olmadığı için macOS güvenlik veya Anahtar Zinciri erişim onayı isteyebilir.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.7.0/Custa-0.7.0-macos-universal.zip" length="2103728" type="application/octet-stream" sparkle:edSignature="XHszwUKrOTPo+kf18ddkk2gfI+smfDE15mKmvE7ReKGjB3r2JK5elq+kNMQpaW2fWbnVFqzJOgYQOQC/bPUlBw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.8.0/Custa-0.8.0-macos-universal.zip" length="2217787" type="application/octet-stream" sparkle:edSignature="fHCylWD0I2Qf3FUHUm91K+x/RLmhlHxFIUvl8IFGeYtHYu8yLQv6vDKx4K8bFC5f58IuELrtqfDOKZKXzSpvAg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: hq/yC5aBezq7f/acCknglly7asEvEvS6F/vF3WtxRUFhkg499/6UfwHf6MYgqk6o4UA0V8+2CUAs6HyTefFZAw==
-length: 2486
+edSignature: 8Zri6AFEEJAN1sPOhkBjTegMb6FRrVT/j1z8RlxGADRFGv+LktN0nMA4SkWjG3p/nwufSMZMqnjFrboo8CCgAg==
+length: 2778
 -->
