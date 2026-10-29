@@ -6,28 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.10.0</title>
-      <sparkle:version>0.10.0</sparkle:version>
-      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <title>Custa 0.11.0</title>
+      <sparkle:version>0.11.0</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 10:57:07 +0000</pubDate>
-      <description># Custa 0.10.0
+      <pubDate>Thu, 29 Oct 2026 11:28:03 +0000</pubDate>
+      <description># Custa 0.11.0
 
-- Kayıtların üzerinde 650 ms bekleyince veya listede Space tuşuna basınca tam metin/büyük görsel önizlemesi açılır. Metinde satır sonları korunur, görselde piksel boyutları ve Düzenle bulunur. Normal tıklama yine kopyalar.
-- ⌘1–⌘9, o anki filtre ve arama sonuçlarının ilk dokuz kaydını kopyalar; numaralar satırların yanında gösterilir. Şifreler sekmesine ve metin düzenleme araçlarına uygulanmaz.
-- Liste tek bir yoğun düzene alındı. Kompakt/Rahat kaldırıldı; Ayarlar → Tema bölümüne Normal/Saydam seçimi eklendi. Pencere boyutlandırma aynı şekilde çalışır; saydam tema sistemin saydamlık ayarlarına uyar.
-- Sabitlenen kayıtlar listenin üstünde ince bir bölüm ayırıcıyla ayrılır.
-- Yeni kayıtlarda algılanan kaynak uygulama, ilk/son kopyalama zamanı ve izlenen kopyalama sayısı saklanır. Kaynak, pano ipucu veya etkin uygulamadan tahmin edilir; eski verilerde bilinmeyen bilgiler uydurulmaz. Dosyadan algılanan ekran görüntüsünün kopyalama sayısı ilk gerçek kopyalamaya kadar sıfırdır.
-- ↑↓ gezinme ve Enter kopyalama tüm listeye uygulanır. Filtreli aramada ↑↓ ile seçim yaptıktan sonra Space önizler; arama yazarken normal boşluk kullanılabilir.
-- Seçili kaydı sabitle/bırak için ⇧⌘S, silmek için ⌥⌘⌫ varsayılanları eklendi ve ayarlardan değiştirilebilir. ⌘1–9 hızlı kopyalamaya ayrılmıştır.
-- Şifreler bölümü Anahtar Zinciri’nde saklanmaya devam eder. Şifrelerin üzerine gelince önizleme açılmaz; gösterme işlemi açıkça yapılır.
+- Görsel editöründeki sistem renk penceresi kaldırıldı. Renk düğmesinin altında hazır renkler, RGB sürgüleri ve HEX girişi olan uygulama içi palet açılır.
+- Metin karşılaştırma yenilendi: iki düzenlenebilir metin alanı, kelime/karakter sayaçları, temizleme, yer değiştirme, Karşılaştır (⌘Enter), yalnızca farkları gösterme ve önceki/sonraki farka gitme eklendi. Satırlar pencere genişliğine göre sarılır, değişiklikler satır içinde vurgulanır; işlemler cihazda yapılır.
+- Şifre açıklaması alanlarındaki örnek isimler kaldırılıp Açıklama yazınız olarak değiştirildi.
+- Ana serbest pencerenin yan kenardan bağımsız genişlik/yükseklik değişimi kapatıldı. Alt iki köşedeki tutamaçlar 420:540 içerik oranını korur; minimum boyut ve görünür ekran sınırları gözetilir. Editör ve karşılaştırma gibi araç pencereleri normal boyutlandırılabilir kalır.
+- Menü çubuğu paneline dönülürken büyük pencerenin boyut/konum bilgisi kullanılmaz. Panel her defasında 420×540 olarak yeniden hazırlanıp güncel menü simgesine bağlanır; hızlı geçişlerde eski açılış isteği iptal edilir. Ekran kenarlarında macOS paneli ekrana sığdırabilir.
 
-Doğrulama: eski kayıtların çözülmesi, yeni metadata alanlarının kalıcılığı, ilk/son kopyalama ve sayaç güncellemeleri, ekran görüntüsünün ilk gerçek kopyalaması, ⌘1–9 eşlemesi ve ayrılmış kombinasyonların korunması; mevcut regresyon testleri ve universal derleme. İzole demo uygulamasında yoğun liste, ayırıcılar ve numaralar gözlendi. Etkileşim aracı pencerenin kullanıcı tarafından değiştiğini bildirerek tuş gönderimini engelledi; gerçek hover/klavye önizleme ve saydam tema etkileşimlerinin tamamı doğrulanamadı.
+Tasarım referansı: https://charactercalculator.com/tr/text-compare/ (iki metin alanı, sayaçlar ve Karşılaştır akışı).
+
+Doğrulama: renk kodu çözümleme, kelime sayımı, iki köşeden oran/karşı köşe/minimum boyut/ekran sınırı geometrisi, mevcut diff regresyon testleri ve universal derleme. Gerçek fareyle köşe sürükleme ve çoklu ekran geçişlerinin tamamı etkileşimli olarak doğrulanmadı.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.10.0/Custa-0.10.0-macos-universal.zip" length="2419353" type="application/octet-stream" sparkle:edSignature="yQmfwLMx96GAzOv/Mu/Ttw0OaVFGNhvePPwh7YvafNZeENo7y6dFhfLu0lNicLiPmGKw0wN0CaMhNVnZA9w+Bw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.11.0/Custa-0.11.0-macos-universal.zip" length="2553756" type="application/octet-stream" sparkle:edSignature="KYsVKqyQC3qgdkL7ypB+m0fJzMkrxoxxQ2gcN3VcOaqjZIXXz5Ve3WovmGQUIcvcdgeOU/Aiy5yNUPFKkq3YDg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: coadU4sJA1a7rSOsNUWVGxD1g3JMLGk8Bjt3uqaZYFC6XxqGhTn8hsBhjOSIj8qrh653TaisGHXAIO4I2Uo0Ag==
-length: 3421
+edSignature: T13kDTHCskANuaH63dHgsdJfhekvxf3A82OvqipFXBW0yUrOl3KkG13rmgo1kHNFJMUyg8ZqdhyMDdbj6XDkDQ==
+length: 2932
 -->
