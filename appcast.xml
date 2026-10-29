@@ -6,44 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.9.0</title>
-      <sparkle:version>0.9.0</sparkle:version>
-      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <title>Custa 0.9.1</title>
+      <sparkle:version>0.9.1</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 01:36:50 +0000</pubDate>
-      <description># Custa 0.9.0
+      <pubDate>Thu, 29 Oct 2026 10:11:05 +0000</pubDate>
+      <description># Custa 0.9.1
 
-## Şifre akışı
-- Yeni şifre üret yalnızca önizleme oluşturur. Kopyala, şifreyi açıklamasıyla Anahtar Zinciri’ne kaydeder ve panoya kopyalar.
-- Aynı şifreyi tekrar kopyalamak çift kayıt oluşturmaz. Kaydetme başarısızsa başarı mesajı gösterilmez.
-- Metinlerin üç nokta → Şifrelere ekle menüsü önce açıklama ister; iptal edilirse kayıt oluşturulmaz. Mevcut şifreler silinmez.
+- Boş liste ve sonuç bulunamayan aramalarda arama çubuğu ile filtrelerin aşağı kayması düzeltildi.
+- Kalan alan boş durum mesajına verilir; arama/filtreler üstte, alt bilgi altta kalır.
+- Şifreler sekmesinin boş görünümüne de aynı yerleşim düzeltmesi uygulandı.
 
-## Pencere
-- Menü çubuğu tıklaması sabit 420×540 paneli açar.
-- Başlıktaki pencere düğmesi aynı ekranı serbest pencereye taşır; açık sekme, arama ve üretici durumu korunur. Pencere başlık çubuğundan taşınır ve kenarlarından boyutlandırılır (en az 420×440 içerik).
-- Serbest pencerenin konumu/boyutu hatırlanır. Menü düğmesiyle panel görünümüne dönülür.
-- İğne düğmesi pencereyi diğer normal pencerelerin üzerinde tutar; tekrar basıldığında normal pencere seviyesine döner. Sabitleme tercihi hatırlanır. Üstte tutulan pencere kopyalamadan sonra kapanmaz.
-- Kompakt/Rahat artık yalnızca içerik sıklığını değiştirir; pencereyi yeniden boyutlandırmaz.
-- Ayarlardaki eski şifre üretici bağlantısı kaldırıldı.
-
-## Kısayollar
-Ayarlarda kombinasyona tıklayıp yeni tuşlara basarak değiştirilebilir. Esc ile kayıt iptal edilir; varsayılanları geri yükleme bulunur. Custa içindeki çakışmalar reddedilir, sistemde kaydedilemeyen genel kısayollar bildirilir.
-
-| İşlem | Varsayılan | Kapsam |
-|---|---|---|
-| Aç / kapat | ⌥⌘V | Genel |
-| Şifre üretici | ⌥⌘P | Genel |
-| Serbest pencere | ⌥⇧⌘D | Genel |
-| Ara | ⌘F | Custa |
-| Ayarlar | ⌘, | Custa |
-| Pencereyi üstte tut / bırak | ⇧⌘P | Custa |
-
-Doğrulama: şifre önizleme/kopyalama/tekilleştirme, kısayol değişiklikleri/çakışma/kalıcılık/sıfırlama, üstte tutma tercihi ve mevcut regresyon testleri; universal derleme. İzole demo arayüzü açıldı ve yeni pencere/ayarlar gözlendi. Etkileşim aracı pencerenin kullanıcı tarafından değiştiğini bildirerek tıklamaları engelledi; kenardan boyutlandırma, gerçek kısayol yakalama ve Anahtar Zinciri izin akışının tüm etkileşimleri doğrulanamadı. Apple Developer ID/noter onayı mevcut değildir.
+Doğrulama: universal derleme ve mevcut otomatik regresyon kontrolleri. Etkileşimli boş/dolu liste geçişi bu ortamda doğrulanmadı.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.9.0/Custa-0.9.0-macos-universal.zip" length="2306385" type="application/octet-stream" sparkle:edSignature="xCYoB5Fc3J+1dYor6u10fJZu65KSBUe8hndV4Ddupr5ODaGDaZR3SpzRnNRgGtYEgkbd6QlgNcVkH9/PJPs2Ag=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.9.1/Custa-0.9.1-macos-universal.zip" length="2309920" type="application/octet-stream" sparkle:edSignature="uEwRcSQgpWRZp/RzOLGlv9fZztVOUO5Bu0njXsU4H/00LKQOFRooXcmF5gzA7RPAzMH+pMYKd/6ODSfGc7qmBw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: V17GkFg0PHiOYqNhbwwkVBn9iLMLhAe5fNEW9386w7tRzOqARLbEdpIQ/Yoq1nRhfp2fT+wx/nqge68Sy7QeAw==
-length: 3512
+edSignature: J7DOim34tm4r/aYYLmpNDNX7uM0PdP3hdAVXgfWrKD/JeiVnXCuFowj5lBdn5rryFp7wiQYe5M/V0z6SLu/+AA==
+length: 1684
 -->
