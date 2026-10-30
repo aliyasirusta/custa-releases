@@ -6,19 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.3</title>
-      <sparkle:version>0.12.3</sparkle:version>
-      <sparkle:shortVersionString>0.12.3</sparkle:shortVersionString>
+      <title>Custa 0.12.4</title>
+      <sparkle:version>0.12.4</sparkle:version>
+      <sparkle:shortVersionString>0.12.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 01:09:01 +0000</pubDate>
-      <description># Custa 0.12.3
+      <pubDate>Fri, 30 Oct 2026 01:17:22 +0000</pubDate>
+      <description># Custa 0.12.4
 
-0.12.2 görünüm değişikliği geri alındı. 0.12.1’deki saydam koyu tasarım geri getirildi; performans iyileştirmeleri ve sağ üst panel konumu korunur. Mevcut pano ve şifre verileri değişmez.
+Ayarlarda Saydam ve Koyu tema seçenekleri sunulur. Varsayılan Saydam görünüm 0.12.1 tasarımını kullanır; Koyu seçeneği opak koyu zemindir. Seçiminiz sonraki açılışlarda hatırlanır. Eski Normal/Saydam tercihi yeni varsayılanı etkilemez.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.3/Custa-0.12.3-macos-universal.zip" length="2638861" type="application/octet-stream" sparkle:edSignature="ob1dJUp2R08QjneqyIjsxrVME/kFXP8DN0Bo1TtTOHHVQYc+VhuxVcPlLOIIBh3qFXwjf/ZVv195sSC0K/VhBg=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.4/Custa-0.12.4-macos-universal.zip" length="2647180" type="application/octet-stream" sparkle:edSignature="nbqwLTsoAZwdaeVdx6eGmb+cLvIKQjoCRm/MeK9CntsCPvNC9V/T121q64emnDmGzZ5iRMqXNgfHVp8gOhI0CQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: vYzW1NqS3IlLrMmzwShvakQ2ht3VAqcHpCRKJFIXzgv0o0dJp6Q9305MieT6aYIFPReuxpkPWXXgrw9oitwPAg==
-length: 1472
+edSignature: hD8oGXbb2M5ZrTLe1Hm4ZZntTyzxQ4HHxzY5OX3chJoM5vCIlBZVe122jPcfnKxUCt0DELwvy+i5dE38xz6RBA==
+length: 1523
 -->
