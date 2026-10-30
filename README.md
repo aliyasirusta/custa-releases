@@ -1,30 +1,91 @@
 <div align="center">
-<img src="assets/app-icon.png" width="96" height="96" alt="Custa">
+<img src="assets/app-icon.png" width="96" height="96" alt="Custa uygulama ikonu">
 <h1>Custa</h1>
-<p>Kopyaladıkların ve yakaladıkların, elinin altında.</p>
-<p>macOS için pano geçmişi, ekran görüntüleri, OCR, Base64, diff ve görsel düzenleme.</p>
+<p><strong>Kopyaladıkların ve yakaladıkların, elinin altında.</strong></p>
+<p>macOS için pano ve ekran görüntüsü geçmişi · macOS 14+ · Intel ve Apple Silicon</p>
 </div>
 
-## İndir
+**[Custa’yı indir → GitHub Releases](https://github.com/aliyasirusta/custa-releases/releases)** · [Kısa kullanım rehberi](docs/KULLANIM.md)
 
-**[Mac uygulamasını indir → Releases](https://github.com/aliyasirusta/custa-releases/releases)**
+Custa, metinleri ve görselleri menü çubuğunda bir araya getirir. Ekran görüntülerini klasör seçtirmeden algılar; OCR, Base64, metin karşılaştırma, görsel düzenleme ve şifre üretme araçları sunar. Hesap ve bulut senkronizasyonu yoktur.
 
-macOS 14+ · Intel ve Apple Silicon için tek Universal paket.
+## Kurulum: elle taşıma gerekmez
 
-ZIP'i açıp Custa.app dosyasını çalıştırın. 0.4.2 ve üstünde ilk açılıştaki **Uygulamalar’a taşı ve aç** düğmesi kurulumu ve doğru konumdan yeniden açılmayı tamamlar. Uygulama kapatılmadan önce açık görsel düzenlemelerinizi kaydedin. Elle kurmak isterseniz Custa.app dosyasını Uygulamalar klasörüne taşıyabilirsiniz. Uygulama menü çubuğunda çalışır; ⌥⌘V kısayoluyla açılır.
+1. Releases sayfasındaki **Assets** bölümünden `Custa-X.Y.Z-macos-universal.zip` dosyasını indir. `Source code` ve `.sha256` dosyaları uygulama değildir.
+2. ZIP’i aç, İndirilenler’de çıkan **Custa.app** dosyasına çift tıkla.
+3. **Custa’yı kur → Kur ve aç** seçeneğine bas. Custa kendisini `/Applications` klasörüne kopyalar ve oradan yeniden açar. Bu klasör yazılabilir değilse `~/Applications` kullanılır. Finder’da elle taşıman gerekmez.
+4. İlk kullanımda **Başla**ya bas. Sonrasında menü çubuğu simgesi veya **⌥⌘V** ile aç.
 
-## Uygulama içinden güncelleme
+Kurulum pano geçmişini ve şifrelerini silmez. İndirilen ZIP ve kaynak uygulama kopyası otomatik silinmez; kurulu Custa’nın açıldığını gördükten sonra bunları kaldırabilirsin. Kurulu konumdan açıldığında kurulum ekranı tekrar gelmez. **Şimdi değil** seçilirse o konumda kullanım sürer; güncelleme için daha sonra kurulum gerekir.
 
-0.4.0 ve üstünde **Ayarlar → Güncellemeleri denetle…** düğmesini kullanın. Yeni sürüm bulunduğunda Sparkle, paketi doğrular ve onayınızla yükleyip uygulamayı yeniden başlatır. Otomatik kontrol isteğe bağlıdır; otomatik yükleme kapalıdır.
+**Ön sürüm / Apple güvenlik uyarısı:** Paket ad-hoc imzalıdır; Apple Developer ID imzası ve noter onayı henüz yoktur. macOS ilk açılışı engellerse, yalnızca bu resmi repodan indirdiğine güveniyorsan, açmayı denedikten sonra **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç** yolunu kullan. Mac oturum parolan veya Touch ID istenebilir. Sistem genelinde güvenliği kapatmak gerekmez. Bu onay kurulumdan ayrıdır; “Kur ve aç” macOS güvenlik denetimini atlamaz.
 
-0.3.0 ve önceki sürümlerden geçerken ilk kez 0.4.0'ı elle kurmanız gerekir. Yerel Custa geçmişiniz korunur.
+## Güncelleme
 
-## Dağıtım ve gizlilik
+**Custa ayarları → Güncellemeleri denetle…** yeni sürümü bulur. Sparkle imzalı paketi doğrular, onayınla yükler ve Custa’yı yeniden açar. Her sürümde ZIP indirmen gerekmez. Otomatik denetleme isteğe bağlıdır; otomatik yükleme kapalıdır. Liste kısa süre önbellekte kalabilir; yeni yayın görünmüyorsa birkaç dakika sonra yeniden dene.
 
-Bu repo yalnızca derlenmiş uygulama paketleri, imzalı güncelleme listesi, sürüm notları ve dağıtım otomasyonunu içerir. Uygulamanın Swift kaynak kodu, pano içeriği, ekran görüntüsü geçmişi ve özel anahtarlar bulunmaz.
+## Günlük kullanım
 
-Güncellemeler Ed25519 ile, güncelleme listesi de Sparkle tarafından imzalanır. Doğrulama için yalnızca açık anahtar yayınlanır. Otomatik kontrol açıldığında veya siz denetleme düğmesine bastığınızda GitHub'a bağlanılır; pano verileri gönderilmez.
+- Metin veya görsel satırına tıkla ya da seçip **Enter**a bas: panoya kopyalanır. Hedef uygulamada **⌘V** ile yapıştır; otomatik yapıştırma yapılmaz.
+- Arama metin ve tamamlanan OCR sonuçlarında çalışır. Filtreler: **Tümü, Metinler, Görseller, Sabitlenenler, Şifreler**.
+- Kaydın üzerinde bekle veya klavyeyle seçip **Space**e bas: büyük önizleme açılır. Görsel düzenlemek için **… → Düzenle** kullan.
+- Başlıktaki pencere düğmesi taşınabilir serbest pencereyi açar. Alt köşelerden oranı korunarak boyutlandır; iğne düğmesiyle üstte tut.
+- Menü paneli imlecin bulunduğu ekranın sağ üstünde açılır. Ayarlarda **Saydam** (varsayılan) veya **Koyu** seçebilirsin.
+- Alttaki duraklat düğmesi pano ve ekran görüntüsü takibini durdurur.
 
-**Ön sürüm:** Apple Developer ID ve noter onayı henüz yoktur. macOS ilk açılışta güvenlik uyarısı gösterebilir. Kaynağa güveniyorsanız Sistem Ayarları → Gizlilik ve Güvenlik bölümündeki “Yine de Aç” seçeneği kullanılabilir. Sistem genelinde güvenlik ayarlarını kapatmayın.
+## Varsayılan kısayollar
 
-Uygulama ücretsiz indirilebilir; bu dağıtım reposu kaynak kod lisansı sağlamaz.
+| İşlem | Kısayol | Kapsam |
+|---|---|---|
+| Aç / kapat | ⌥⌘V | Her uygulamada |
+| Şifre üretici | ⌥⌘P | Her uygulamada |
+| Serbest pencere | ⌥⇧⌘D | Her uygulamada |
+| Ara | ⌘F | Custa içinde |
+| Ayarlar | ⌘, | Custa içinde |
+| Pencereyi üstte tut / bırak | ⇧⌘P | Serbest pencerede |
+| Seçili kaydı sabitle / bırak | ⇧⌘S | Geçmiş listesinde |
+| Seçili kaydı sil | ⌥⌘⌫ | Geçmiş listesinde |
+| İlk dokuz kaydı kopyala | ⌘1–9 | Geçmiş listesinde |
+| Gezin / kopyala / önizle | ↑↓ / Enter / Space | Geçmiş listesinde |
+
+İlk sekiz kısayol **Ayarlar → Klavye kısayolları** bölümünden değiştirilebilir. Arama yazarken Space normal boşluk girer; ↑↓ ile kayıt seçtikten sonra önizleme açar. Editörde ⌘Z geri alır, ⇧⌘Z yineler, Delete seçili şekli siler.
+
+## İzinler ve gizlilik
+
+- Ekran görüntülerine ulaşmak için macOS dosya/klasör erişimi isteyebilir. Custa ekranı sürekli kaydetmez; dosyaya veya panoya ulaşan görüntüleri algılar. Ekran Kaydı izni bu akış için gerekli değildir.
+- Algılama macOS ekran görüntüsü işaretleri, Spotlight ve sistem kayıt konumuna dayanır. İzin verilmeyen veya indekslenmeyen konumlar ve bazı üçüncü taraf yakalamaları eksik kalabilir. **Eski görüntüleri içe aktar** en yeni 300 eski görüntüyü isteğinle alır.
+- Açılışta başlatma isteğe bağlıdır; macOS giriş öğesi onayı isteyebilir.
+- Şifreler ve açıklamaları **macOS Anahtar Zinciri**nde saklanır. macOS erişim onayı/oturum parolası isteyebilir; imza değişikliklerinde onay tekrar çıkabilir.
+- Pano geçmişi, görseller ve editör taslakları yerelde **şifrelenmeden** saklanır. Hariç tutulan uygulama filtresi kesin bir güvenlik sınırı değildir; hassas içeriği gerektiğinde ayrıca sil.
+- OCR, Base64 ve diff cihaz üzerinde çalışır. Güncelleme denetimi GitHub’a bağlanır; pano verileri gönderilmez. Telemetri yoktur.
+
+## Veriler nerede, nasıl silinir?
+
+| Veri | Konum / silme |
+|---|---|
+| Geçmiş, görseller, yakalama durumu, taslaklar | `~/Library/Application Support/Custa` |
+| Şifreler ve açıklamalar | Anahtar Zinciri: **Custa · Şifreler** |
+| Görünüm ve kısayol tercihleri | macOS uygulama tercihleri: `local.custa.clipboard` |
+
+- **Tek kayıt:** kaydın **… → Sil** menüsü. Şifre silmek için **Şifreler → … → Sil** kullan. Pano geçmişindeki ayrı kopyası varsa o ayrıca silinmelidir.
+- **Geçmişi temizle:** **Ayarlar → Sabitlenmeyen geçmişi temizle…**. Sabitlenenler, şifreler ve taslaklar korunur; bunları ayrıca sil.
+- **Taslaklar:** **Ayarlar → Taslakları aç…**; açık editörü kapattıktan sonra ilgili taslağı Çöp Sepeti’ne taşı.
+- **Tüm yerel geçmişi sıfırla:** önce Custa’dan çık. Finder’da **Git → Klasöre Git…** ile yukarıdaki Application Support yolunu açıp Custa klasörünü Çöp Sepeti’ne taşı. Bu işlem geçmişi, Custa’nın görsel kopyalarını ve taslaklarını kaldırır; orijinal ekran görüntüsü dosyalarını ve Anahtar Zinciri şifrelerini silmez. Yeniden açmadan önce geri alırsan klasörü geri koyabilirsin.
+- **Tüm şifreleri sil:** Custa’dan çık, **Anahtar Zinciri Erişimi**nde `Custa · Şifreler` kaydını bulup yalnızca bu kaydı sil. Bu Custa şifre kitaplığının tamamını siler; onay istenebilir. Diğer Anahtar Zinciri kayıtlarına dokunma.
+- **Uygulamayı kaldır:** önce açılışta başlatmayı ayarlardan kapat, Custa’dan çık ve kurulu Custa.app’i Çöp Sepeti’ne taşı. Uygulamayı kaldırmak verileri kendiliğinden silmez.
+
+Kayıt silmek macOS’un o anki panosunu boşaltmaz. Panoda hassas içerik kaldıysa zararsız başka bir metin kopyala. Çöp Sepeti, yedekler ve diğer pano uygulamalarındaki kopyalar ayrıca kalabilir.
+
+## Araçlar ve bilinen sınırlar
+
+**Metin:** … menüsünden Base64 dönüştür/çöz ve iki kayıt arasında karşılaştırma. Diff penceresindeki iki alan düzenlenebilir; ⌘Enter ile karşılaştırılır. Sınır: metin başına 5.000 satır, toplam 1 MB.
+
+**Görsel:** seç/taşı/boyutlandır, kalem, çizgi, ok, dikdörtgen, daire, metin, kırp ve opak kapatma. Renk paleti editör içinde açılır. PNG kaydet, kopyala veya geçmişe ekle; orijinal dosya değişmez. Taslaklar düzenlenebilir şekilleri korur. PNG’ye gömülmüş eski çizimler ayrı nesne değildir.
+
+**Şifre:** anahtar düğmesi üreticiyi aynı panelde açar. Uzunluk 8–128; Yeni şifre üret yalnızca önizler, **Kopyala** kaydeder. Metin kaydından Şifrelere ekle açıklama ister; orijinal pano kaydını kaldırmaz.
+
+**Kapasite:** en fazla 300 sabitlenmemiş kayıt; sabitlenenler ayrıca korunur. Metin saklama süresi ve görsel disk sınırı ayarlanabilir. OCR her yazıyı doğru tanımayabilir. Arka plan görsel işleme ve küçük önizleme önbelleği kullanılır; bunlar toplam RAM sınırı veya kesintisiz performans garantisi değildir.
+
+**Kurulum hatası:** “Custa kurulamadı” kopyalama/doğrulama aşamasını; “Custa kuruldu, ancak açılamadı” yeniden başlatma aşamasını belirtir. İkinci durumda Finder’da göster düğmesiyle kurulu dosyayı bul ve güvenlik onayını kontrol et. İndirme kopyasını ancak kurulu sürümün çalıştığını doğruladıktan sonra sil.
+
+Bu repo derlenmiş paketleri, imzalı güncelleme listesini ve rehberleri barındırır. Kaynak kod ve özel imzalama anahtarları içermez. Ücretsiz indirme kaynak kod lisansı vermez.
