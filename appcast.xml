@@ -6,19 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.4</title>
-      <sparkle:version>0.12.4</sparkle:version>
-      <sparkle:shortVersionString>0.12.4</sparkle:shortVersionString>
+      <title>Custa 0.12.5</title>
+      <sparkle:version>0.12.5</sparkle:version>
+      <sparkle:shortVersionString>0.12.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 01:17:22 +0000</pubDate>
-      <description># Custa 0.12.4
+      <pubDate>Fri, 30 Oct 2026 22:39:58 +0000</pubDate>
+      <description># Custa 0.12.5
 
-Ayarlarda Saydam ve Koyu tema seçenekleri sunulur. Varsayılan Saydam görünüm 0.12.1 tasarımını kullanır; Koyu seçeneği opak koyu zemindir. Seçiminiz sonraki açılışlarda hatırlanır. Eski Normal/Saydam tercihi yeni varsayılanı etkilemez.
+İlk açılışta Kur ve aç düğmesi Custa’yı Uygulamalar’a kopyalar ve oradan başlatır; elle taşıma gerekmez. Yeniden açılışın hedef konumdan yapıldığı doğrulanır ve panel gösterilir. Kurulum ile başlatma hataları ayrı açıklanır. Veri ve tema tercihleri korunur. README ve kullanım rehberi güncellendi. Apple Developer ID/noter onayı henüz yoktur; ilk açılışta macOS onayı gerekebilir.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.4/Custa-0.12.4-macos-universal.zip" length="2647180" type="application/octet-stream" sparkle:edSignature="nbqwLTsoAZwdaeVdx6eGmb+cLvIKQjoCRm/MeK9CntsCPvNC9V/T121q64emnDmGzZ5iRMqXNgfHVp8gOhI0CQ=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.5/Custa-0.12.5-macos-universal.zip" length="2735891" type="application/octet-stream" sparkle:edSignature="CwMMR91alnIHxrar8hCdbuw7ePkcz9o5lQnGgfQOFWsmnJY9BTjFnXsr8Bq5IL1zfFXhpskSOnqQqKwcNXdECA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: hD8oGXbb2M5ZrTLe1Hm4ZZntTyzxQ4HHxzY5OX3chJoM5vCIlBZVe122jPcfnKxUCt0DELwvy+i5dE38xz6RBA==
-length: 1523
+edSignature: RWfkYxIIKKrDOiLYaMel3BKZrrMEZM+wzJWcVz0Y62o7BaAWKGyodH3nfVdW7NKjNkU/cCrK7tppq1p4WuJ1Dg==
+length: 1692
 -->
