@@ -1,7 +1,7 @@
 # Custa — kısa kullanım rehberi
 
 1. [Resmi Releases sayfasından](https://github.com/aliyasirusta/custa-releases/releases) universal ZIP’i indir, aç ve Custa.app’i çalıştır.
-2. **Kur ve aç**a bas. Elle Uygulamalar’a taşıma gerekmez. Sistem klasörü yazılabilir değilse kullanıcı Uygulamalar klasörü kullanılır.
+2. ZIP’ten çıkan uygulama bulunduğu klasörde kalır. Custa kapalıyken Finder’da **Custa.app’i Uygulamalar’a elle taşı** ve oradan aç. Otomatik kurulum yoktur; uygulama içi güncellemeler Uygulamalar konumunu gerektirir.
 3. macOS engellerse kaynağı doğrula; **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç** yolunu kullan. Developer ID/noter onayı henüz yoktur.
 4. **⌥⌘V** ile aç, yazıp ara, satıra tıkla veya Enter ile kopyala. Hedefte ⌘V ile yapıştır.
 5. Görsel düzenlemek için **… → Düzenle**. Space büyük önizleme açar; ⌘1–9 ilk dokuz kaydı kopyalar.

@@ -9,16 +9,16 @@
 
 Custa, metinleri ve görselleri menü çubuğunda bir araya getirir. Ekran görüntülerini klasör seçtirmeden algılar; OCR, Base64, metin karşılaştırma, görsel düzenleme ve şifre üretme araçları sunar. Hesap ve bulut senkronizasyonu yoktur.
 
-## Kurulum: elle taşıma gerekmez
+## Kurulum
 
 1. Releases sayfasındaki **Assets** bölümünden `Custa-X.Y.Z-macos-universal.zip` dosyasını indir. `Source code` ve `.sha256` dosyaları uygulama değildir.
-2. ZIP’i aç, İndirilenler’de çıkan **Custa.app** dosyasına çift tıkla.
-3. **Custa’yı kur → Kur ve aç** seçeneğine bas. Custa kendisini `/Applications` klasörüne kopyalar ve oradan yeniden açar. Bu klasör yazılabilir değilse `~/Applications` kullanılır. Finder’da elle taşıman gerekmez.
+2. ZIP’i aç. **Custa.app**, ZIP’in açıldığı klasöre (genellikle İndirilenler) çıkar. Otomatik taşıma veya kurulum ekranı yoktur.
+3. Kalıcı kurulum ve uygulama içi güncellemeler için Custa kapalıyken Finder’da **Custa.app’i Uygulamalar klasörüne elle taşı**, ardından oradan aç. `~/Applications` da desteklenir.
 4. İlk kullanımda **Başla**ya bas. Sonrasında menü çubuğu simgesi veya **⌥⌘V** ile aç.
 
-Kurulum pano geçmişini ve şifrelerini silmez. İndirilen ZIP ve kaynak uygulama kopyası otomatik silinmez; kurulu Custa’nın açıldığını gördükten sonra bunları kaldırabilirsin. Kurulu konumdan açıldığında kurulum ekranı tekrar gelmez. **Şimdi değil** seçilirse o konumda kullanım sürer; güncelleme için daha sonra kurulum gerekir.
+İndirilenler’den de çalıştırabilirsin; uygulama içi güncellemeler için önce Uygulamalar’a taşıyıp oradan yeniden açman gerekir. Taşıma geçmişini ve şifrelerini silmez. ZIP arşivini daha sonra kaldırabilirsin.
 
-**Ön sürüm / Apple güvenlik uyarısı:** Paket ad-hoc imzalıdır; Apple Developer ID imzası ve noter onayı henüz yoktur. macOS ilk açılışı engellerse, yalnızca bu resmi repodan indirdiğine güveniyorsan, açmayı denedikten sonra **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç** yolunu kullan. Mac oturum parolan veya Touch ID istenebilir. Sistem genelinde güvenliği kapatmak gerekmez. Bu onay kurulumdan ayrıdır; “Kur ve aç” macOS güvenlik denetimini atlamaz.
+**Ön sürüm / Apple güvenlik uyarısı:** Paket ad-hoc imzalıdır; Apple Developer ID imzası ve noter onayı henüz yoktur. macOS ilk açılışı engellerse, yalnızca bu resmi repodan indirdiğine güveniyorsan, açmayı denedikten sonra **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç** yolunu kullan. Mac oturum parolan veya Touch ID istenebilir. Sistem genelinde güvenliği kapatmak gerekmez. Uygulamayı elle taşımak macOS güvenlik denetimini atlamaz.
 
 ## Güncelleme
 
@@ -86,6 +86,6 @@ Kayıt silmek macOS’un o anki panosunu boşaltmaz. Panoda hassas içerik kald�
 
 **Kapasite:** en fazla 300 sabitlenmemiş kayıt; sabitlenenler ayrıca korunur. Metin saklama süresi ve görsel disk sınırı ayarlanabilir. OCR her yazıyı doğru tanımayabilir. Arka plan görsel işleme ve küçük önizleme önbelleği kullanılır; bunlar toplam RAM sınırı veya kesintisiz performans garantisi değildir.
 
-**Kurulum hatası:** “Custa kurulamadı” kopyalama/doğrulama aşamasını; “Custa kuruldu, ancak açılamadı” yeniden başlatma aşamasını belirtir. İkinci durumda Finder’da göster düğmesiyle kurulu dosyayı bul ve güvenlik onayını kontrol et. İndirme kopyasını ancak kurulu sürümün çalıştığını doğruladıktan sonra sil.
+**Açılış sorunu:** macOS güvenlik uyarısını yukarıdaki adımlarla kontrol et. Güncelleme kullanılamıyorsa Custa’dan çık, Uygulamalar’a elle taşı ve oradan yeniden aç.
 
 Bu repo derlenmiş paketleri, imzalı güncelleme listesini ve rehberleri barındırır. Kaynak kod ve özel imzalama anahtarları içermez. Ücretsiz indirme kaynak kod lisansı vermez.
