@@ -6,19 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.1</title>
-      <sparkle:version>0.12.1</sparkle:version>
-      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+      <title>Custa 0.12.2</title>
+      <sparkle:version>0.12.2</sparkle:version>
+      <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 00:45:51 +0000</pubDate>
-      <description># Custa 0.12.1
+      <pubDate>Fri, 30 Oct 2026 00:56:45 +0000</pubDate>
+      <description># Custa 0.12.2
 
-Saydam görünüm artık tek temadır. Ayarlardaki Normal/Saydam seçimi kaldırıldı; önceki tema tercihi görünümü etkilemez. macOS’un saydamlığı azaltma erişilebilirlik ayarı korunur.
+Saydam zemin macOS’un yerel popover malzemesini kullanır. Gri renk örtüsü ve zorunlu koyu görünüm kaldırıldı; yazı ve kontroller sistemin açık/koyu görünümüne uyar. Satır yüzeyleri hafifletildi, seçili kayıt belirginleştirildi. Saydamlığı azaltma erişilebilirlik ayarı sistem tarafından korunur.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.1/Custa-0.12.1-macos-universal.zip" length="2638860" type="application/octet-stream" sparkle:edSignature="HPmkkSlXSN2PB4HsiT6/QL4rh3m1zNgcfL5zPqgJLUbVupPf3u1+5AeFthoGsJqKbVxa2ACYZPVh3LFBRz/BBw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.2/Custa-0.12.2-macos-universal.zip" length="2634268" type="application/octet-stream" sparkle:edSignature="IMgYPysZEBOMA7aDdgUimTpWHLpOCcnbO172L4S+pdcXilLR5NHp4JwUYWfjpptOOUj3p/ODawd64E4gl9YDBw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ZWygjofUFMWshUvnCLZjrUEvLJtNFmyHPNqt5Y+COmMqfuVZB8tyRddqlLrNbNIC6Q63n8mkKVhI7p7joQiYDw==
-length: 1466
+edSignature: vv9HrvwE9gcixdnGe0whSSoETw7dOwp4jICw7XpNQioSvzpAvu8Jxlade1bCFwl0PtvoEStmNwbEg5njHnzlAA==
+length: 1593
 -->
