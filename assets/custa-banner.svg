@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Custa — Kopyala. Bul. Devam et.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1320"/><stop offset="1" stop-color="#122b31"/></linearGradient><radialGradient id="glow"><stop stop-color="#2dd4bf" stop-opacity=".18"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="400" rx="24" fill="url(#bg)"/><ellipse cx="970" cy="100" rx="400" ry="340" fill="url(#glow)"/>
+<g fill="none" stroke="#36d5c2" stroke-width="11" stroke-linejoin="round"><path d="M110 104H75v54h35" opacity=".5"/><path d="M128 119H93v54h35"/></g>
+<text x="155" y="164" fill="#f3f7fa" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="58" font-weight="700">Custa</text>
+<text x="72" y="246" fill="#f3f7fa" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="39" font-weight="600">Kopyala. Bul. Devam et.</text>
+<text x="74" y="292" fill="#a7bbc4" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">macOS için pano ve ekran görüntüsü geçmişi</text>
+<g fill="none" stroke="#8ce8dc" stroke-opacity=".22"><rect x="825" y="83" width="262" height="224" rx="20"/><rect x="858" y="116" width="262" height="224" rx="20"/></g>
+<g stroke="#57dcca" stroke-width="5" stroke-linecap="round" opacity=".7"><path d="M889 166h140M889 194h99M889 222h119"/></g>
+<text x="889" y="299" fill="#b8cdcF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="23">⌥ ⌘ V</text>
+</svg>

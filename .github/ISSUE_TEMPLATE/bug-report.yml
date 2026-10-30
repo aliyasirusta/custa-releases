@@ -1,0 +1,33 @@
+name: Hata bildir
+description: Custa’da karşılaştığın bir sorunu paylaş.
+title: "[Hata] "
+body:
+  - type: markdown
+    attributes:
+      value: "Teşekkürler. Şifre, pano içeriği veya kişisel bilgi paylaşma; ekran görüntülerindeki hassas alanları gizle."
+  - type: input
+    id: version
+    attributes:
+      label: Custa sürümü
+      placeholder: "Örn. 0.12.6 — Ayarlar bölümünde görünür"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS sürümü ve Mac modeli
+      placeholder: "Örn. macOS 15, MacBook Air M2"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Sorunu nasıl tekrarlayabiliriz?
+      description: "Yaptığın adımları, beklediğin sonucu ve gerçekleşen durumu anlat."
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Ek bilgi veya ekran görüntüsü
+      description: "İsteğe bağlı. Hassas bilgileri gizle."
