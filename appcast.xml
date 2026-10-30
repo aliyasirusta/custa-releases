@@ -6,19 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.2</title>
-      <sparkle:version>0.12.2</sparkle:version>
-      <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
+      <title>Custa 0.12.3</title>
+      <sparkle:version>0.12.3</sparkle:version>
+      <sparkle:shortVersionString>0.12.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 00:56:45 +0000</pubDate>
-      <description># Custa 0.12.2
+      <pubDate>Fri, 30 Oct 2026 01:09:01 +0000</pubDate>
+      <description># Custa 0.12.3
 
-Saydam zemin macOS’un yerel popover malzemesini kullanır. Gri renk örtüsü ve zorunlu koyu görünüm kaldırıldı; yazı ve kontroller sistemin açık/koyu görünümüne uyar. Satır yüzeyleri hafifletildi, seçili kayıt belirginleştirildi. Saydamlığı azaltma erişilebilirlik ayarı sistem tarafından korunur.
+0.12.2 görünüm değişikliği geri alındı. 0.12.1’deki saydam koyu tasarım geri getirildi; performans iyileştirmeleri ve sağ üst panel konumu korunur. Mevcut pano ve şifre verileri değişmez.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.2/Custa-0.12.2-macos-universal.zip" length="2634268" type="application/octet-stream" sparkle:edSignature="IMgYPysZEBOMA7aDdgUimTpWHLpOCcnbO172L4S+pdcXilLR5NHp4JwUYWfjpptOOUj3p/ODawd64E4gl9YDBw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.3/Custa-0.12.3-macos-universal.zip" length="2638861" type="application/octet-stream" sparkle:edSignature="ob1dJUp2R08QjneqyIjsxrVME/kFXP8DN0Bo1TtTOHHVQYc+VhuxVcPlLOIIBh3qFXwjf/ZVv195sSC0K/VhBg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: vv9HrvwE9gcixdnGe0whSSoETw7dOwp4jICw7XpNQioSvzpAvu8Jxlade1bCFwl0PtvoEStmNwbEg5njHnzlAA==
-length: 1593
+edSignature: vYzW1NqS3IlLrMmzwShvakQ2ht3VAqcHpCRKJFIXzgv0o0dJp6Q9305MieT6aYIFPReuxpkPWXXgrw9oitwPAg==
+length: 1472
 -->
