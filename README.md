@@ -1,9 +1,9 @@
 <div align="center">
   <img src="assets/custa-banner.svg" width="100%" alt="Custa — Kopyala. Bul. Devam et.">
   <br><br>
-  <a href="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.6/Custa-0.12.6-macos-universal.zip"><img src="assets/download-macos.svg" width="272" height="56" alt="Mac için Custa’yı indir — ZIP doğrudan indirilir"></a>
-  <p><strong>v0.12.6</strong> · macOS 14 ve üzeri · Apple Silicon &amp; Intel · Universal ZIP</p>
-  <p><a href="docs/KULLANIM.md">Kullanım rehberi</a> · <a href="https://github.com/aliyasirusta/custa-releases/releases/tag/v0.12.6">Sürüm notları</a> · <a href="https://github.com/aliyasirusta/custa-releases/issues">Sorun bildir</a></p>
+  <a href="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.7/Custa-0.12.7-macos-universal.zip"><img src="assets/download-macos.svg" width="272" height="56" alt="Mac için Custa’yı indir — ZIP doğrudan indirilir"></a>
+  <p><strong>v0.12.7</strong> · macOS 14 ve üzeri · Apple Silicon &amp; Intel · Universal ZIP</p>
+  <p><a href="docs/KULLANIM.md">Kullanım rehberi</a> · <a href="https://github.com/aliyasirusta/custa-releases/releases/tag/v0.12.7">Sürüm notları</a> · <a href="https://github.com/aliyasirusta/custa-releases/issues">Sorun bildir</a></p>
 </div>
 
 ---
