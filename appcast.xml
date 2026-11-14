@@ -6,19 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.9</title>
-      <sparkle:version>0.12.9</sparkle:version>
-      <sparkle:shortVersionString>0.12.9</sparkle:shortVersionString>
+      <title>Custa 0.12.10</title>
+      <sparkle:version>0.12.10</sparkle:version>
+      <sparkle:shortVersionString>0.12.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Nov 2026 00:21:35 +0000</pubDate>
-      <description># Custa 0.12.9
+      <pubDate>Sat, 14 Nov 2026 00:33:36 +0000</pubDate>
+      <description># Custa 0.12.10
 
-Ayarlar → Pencere ve görünüm bölümünden menü çubuğu simgesini Klasik veya Üç kartlı C olarak seçebilirsin. Seçim hemen uygulanır ve hatırlanır. Görsel editöründe görüntü, çalışma alanına sığdığı eksenlerde ortalanır.
+Üç noktanın üzerinde kısa süre bekleyerek veya tıklayarak işlemleri açabilirsin. İşlemler küçük simgelerle gösterilir. Her simgenin adı araç ipucunda görünür.
+
+Şifreler pano geçmişi gibi yerelde şifrelenmeden saklanır. Şifreler sekmesi açılırken Anahtar Zinciri erişimi yapılmaz. Eski kayıtları almak için Şifreler → Eski şifreleri aktar seçeneğini kullanabilirsin. macOS aktarım sırasında erişim izni isteyebilir.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.9/Custa-0.12.9-macos-universal.zip" length="2855015" type="application/octet-stream" sparkle:edSignature="A63lNVoHOiZO0q2ILTcPOQInRAEg9YbK7k4x6ZhoLYs37IJ34vGZi4e3NEeWtyt6O6lR0IJfwjqwU0hjyOFjCA=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.10/Custa-0.12.10-macos-universal.zip" length="2873816" type="application/octet-stream" sparkle:edSignature="wotuaIjhl5JVo5FRKRb2TiViLhMHslyUW7s6DSNPkWZNyHL8yNV69CJOCg32a4tllUM2oliMChM1EqMWyvizAA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 81pfnRRL7S0QhpM4H1gPECpZctgFhur/SlD9FlLSbyCJ0jxUK6j7B3F1n9KnNxFEvUvA2ivpi012z7HIhxDvBg==
-length: 1519
+edSignature: CfDtVly/h3NYQOYeQCPO7qpLZOr8cAmI7caaPdOaD3YtlZ36YRSWE4flpee85I1XpTqW1kLOAi6TM8BZd1YGDA==
+length: 1732
 -->
