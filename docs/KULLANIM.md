@@ -19,6 +19,8 @@
 
 ## Günlük kullanım
 
+Üç noktanın üzerinde kısa süre bekle veya tıkla. İşlemler simgelerle açılır, adlarını görmek için simgenin üzerinde bekle.
+
 - Metin veya görsel satırına tıkla ya da seçip **Enter**a bas: panoya kopyalanır. Hedef uygulamada **⌘V** ile yapıştır; otomatik yapıştırma yapılmaz.
 - Arama metin ve tamamlanan OCR sonuçlarında çalışır. Filtreler: **Tümü, Metinler, Görseller, Sabitlenenler, Şifreler**.
 - Kaydın üzerinde bekle veya klavyeyle seçip **Space**e bas: büyük önizleme açılır. Görsel düzenlemek için **… → Düzenle** kullan.
@@ -48,7 +50,7 @@
 - Ekran görüntülerine ulaşmak için macOS dosya/klasör erişimi isteyebilir. Custa ekranı sürekli kaydetmez; dosyaya veya panoya ulaşan görüntüleri algılar. Ekran Kaydı izni bu akış için gerekli değildir.
 - Algılama macOS ekran görüntüsü işaretleri, Spotlight ve sistem kayıt konumuna dayanır. İzin verilmeyen veya indekslenmeyen konumlar ve bazı üçüncü taraf yakalamaları eksik kalabilir. **Eski görüntüleri içe aktar** en yeni 300 eski görüntüyü isteğinle alır.
 - Açılışta başlatma isteğe bağlıdır; macOS giriş öğesi onayı isteyebilir.
-- Şifreler ve açıklamaları **macOS Anahtar Zinciri**nde saklanır. macOS erişim onayı/oturum parolası isteyebilir; imza değişikliklerinde onay tekrar çıkabilir.
+- Şifreler ve açıklamalar pano geçmişi gibi yerelde şifrelenmeden saklanır. Eski Anahtar Zinciri kayıtlarını Şifreler → Eski şifreleri aktar üzerinden alabilirsin. macOS aktarım sırasında izin isteyebilir.
 - Pano geçmişi, görseller ve editör taslakları yerelde **şifrelenmeden** saklanır. Hariç tutulan uygulama filtresi kesin bir güvenlik sınırı değildir; hassas içeriği gerektiğinde ayrıca sil.
 - OCR, Base64 ve diff cihaz üzerinde çalışır. Güncelleme denetimi GitHub’a bağlanır; pano verileri gönderilmez. Telemetri yoktur.
 
@@ -57,14 +59,14 @@
 | Veri | Konum / silme |
 |---|---|
 | Geçmiş, görseller, yakalama durumu, taslaklar | `~/Library/Application Support/Custa` |
-| Şifreler ve açıklamalar | Anahtar Zinciri: **Custa · Şifreler** |
+| Şifreler ve açıklamalar | `~/Library/Application Support/Custa/Vault/passwords.json` |
 | Görünüm ve kısayol tercihleri | macOS uygulama tercihleri: `local.custa.clipboard` |
 
 - **Tek kayıt:** kaydın **… → Sil** menüsü. Şifre silmek için **Şifreler → … → Sil** kullan. Pano geçmişindeki ayrı kopyası varsa o ayrıca silinmelidir.
 - **Geçmişi temizle:** **Ayarlar → Sabitlenmeyen geçmişi temizle…**. Sabitlenenler, şifreler ve taslaklar korunur; bunları ayrıca sil.
 - **Taslaklar:** **Ayarlar → Taslakları aç…**; açık editörü kapattıktan sonra ilgili taslağı Çöp Sepeti’ne taşı.
-- **Tüm yerel geçmişi sıfırla:** önce Custa’dan çık. Finder’da **Git → Klasöre Git…** ile yukarıdaki Application Support yolunu açıp Custa klasörünü Çöp Sepeti’ne taşı. Bu işlem geçmişi, Custa’nın görsel kopyalarını ve taslaklarını kaldırır; orijinal ekran görüntüsü dosyalarını ve Anahtar Zinciri şifrelerini silmez. Yeniden açmadan önce geri alırsan klasörü geri koyabilirsin.
-- **Tüm şifreleri sil:** Custa’dan çık, **Anahtar Zinciri Erişimi**nde `Custa · Şifreler` kaydını bulup yalnızca bu kaydı sil. Bu Custa şifre kitaplığının tamamını siler; onay istenebilir. Diğer Anahtar Zinciri kayıtlarına dokunma.
+- **Tüm yerel geçmişi sıfırla:** önce Custa’dan çık. Finder’da **Git → Klasöre Git…** ile yukarıdaki Application Support yolunu açıp Custa klasörünü Çöp Sepeti’ne taşı. Bu işlem geçmişi, Custa’nın görsel kopyalarını taslaklarını ve yerel kasasını kaldırır; orijinal ekran görüntüsü dosyalarını ve Anahtar Zinciri şifrelerini silmez. Yeniden açmadan önce geri alırsan klasörü geri koyabilirsin.
+- **Tüm yerel şifreleri sil:** Custa’dan çık, yukarıdaki kasa dosyasını Çöp Sepeti’ne taşı. Eski Anahtar Zinciri kayıtları ayrı saklanır.
 - **Uygulamayı kaldır:** önce açılışta başlatmayı ayarlardan kapat, Custa’dan çık ve kurulu Custa.app’i Çöp Sepeti’ne taşı. Uygulamayı kaldırmak verileri kendiliğinden silmez.
 
 Kayıt silmek macOS’un o anki panosunu boşaltmaz. Panoda hassas içerik kaldıysa zararsız başka bir metin kopyala. Çöp Sepeti, yedekler ve diğer pano uygulamalarındaki kopyalar ayrıca kalabilir.

@@ -1,9 +1,9 @@
 <div align="center">
   <img src="assets/custa-banner.svg" width="100%" alt="Custa — Kopyala. Bul. Devam et.">
   <br><br>
-  <a href="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.9/Custa-0.12.9-macos-universal.zip"><img src="assets/download-macos.svg" width="272" height="56" alt="Mac için Custa’yı indir — ZIP doğrudan indirilir"></a>
-  <p><strong>v0.12.9</strong> · macOS 14 ve üzeri · Apple Silicon &amp; Intel · Universal ZIP</p>
-  <p><a href="docs/KULLANIM.md">Kullanım rehberi</a> · <a href="https://github.com/aliyasirusta/custa-releases/releases/tag/v0.12.9">Sürüm notları</a> · <a href="https://github.com/aliyasirusta/custa-releases/issues">Sorun bildir</a></p>
+  <a href="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.10/Custa-0.12.10-macos-universal.zip"><img src="assets/download-macos.svg" width="272" height="56" alt="Mac için Custa’yı indir — ZIP doğrudan indirilir"></a>
+  <p><strong>v0.12.10</strong> · macOS 14 ve üzeri · Apple Silicon &amp; Intel · Universal ZIP</p>
+  <p><a href="docs/KULLANIM.md">Kullanım rehberi</a> · <a href="https://github.com/aliyasirusta/custa-releases/releases/tag/v0.12.10">Sürüm notları</a> · <a href="https://github.com/aliyasirusta/custa-releases/issues">Sorun bildir</a></p>
 </div>
 
 ---
@@ -18,7 +18,7 @@ Kopyaladığın bir metni, bağlantıyı veya ekran görüntüsünü yeniden bul
 | **Ekran görüntüleri** | Klasör seçmeden macOS ekran görüntülerini algıla, OCR ile içindeki yazıyı ara. |
 | **Görsel düzenleme** | Ok, çizgi, şekil ve not ekle; kırp, hassas alanları opak kapat, PNG olarak kaydet. |
 | **Metin araçları** | Base64 dönüştür/çöz; iki metni yan yana karşılaştır. |
-| **Şifre araçları** | Şifre üret, açıklamayla kaydet; macOS Anahtar Zinciri’nde sakla. |
+| **Şifre araçları** | Şifre üret ve açıklamasıyla yerel kasaya kaydet. |
 | **Sana göre görünüm** | Saydam veya koyu tema; taşınabilir pencere ve her zaman üstte tutma. |
 
 ### Üç adımda başla
@@ -39,7 +39,7 @@ Kısayollar ayarlardan özelleştirilebilir. [Tüm kısayollar ve kullanım](doc
 
 ### Yerel çalışır, kontrol sende kalır
 
-Hesap, telemetri ve bulut senkronizasyonu yoktur. OCR, Base64 ve metin karşılaştırma cihazında çalışır. Şifreler **macOS Anahtar Zinciri’nde**; pano geçmişi, görseller ve taslaklar **yerelde, şifrelenmeden** tutulur. Güncelleme denetimi GitHub’a bağlanır; pano içeriğin gönderilmez.
+Hesap, telemetri ve bulut senkronizasyonu yoktur. OCR, Base64 ve metin karşılaştırma cihazında çalışır. Şifreler, pano geçmişi, görseller ve taslaklar **yerelde, şifrelenmeden** tutulur. Güncelleme denetimi GitHub’a bağlanır; pano içeriğin gönderilmez.
 
 [Erişim izinleri ve gizlilik](docs/KULLANIM.md#izinler-ve-gizlilik) · [Veri konumu, silme ve kaldırma](docs/KULLANIM.md#veriler-nerede-nasıl-silinir)
 
