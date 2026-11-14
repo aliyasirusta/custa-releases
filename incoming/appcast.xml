@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Custa güncellemeleri</title>
+    <link>https://github.com/aliyasirusta/custa-releases/releases</link>
+    <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
+    <item>
+      <title>Custa 0.12.13</title>
+      <sparkle:version>0.12.13</sparkle:version>
+      <sparkle:shortVersionString>0.12.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <pubDate>Sat, 14 Nov 2026 01:03:17 +0000</pubDate>
+      <description># Custa 0.12.13
+
+İşlem simgelerinin üzerine gelince hafif, yuvarlatılmış bir arka plan görünür.
+</description>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.13/Custa-0.12.13-macos-universal.zip" length="2883651" type="application/octet-stream" sparkle:edSignature="c1WYcld4Rav1oX1dzlhExVVwhBdtOaDgPkiP8fKIwwsRa1qgdAMu9AG+p6/lx+78xKxUzXv6VHlDDgQZP0OkDA=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: CIqABooxF2bV9AxKlhi0nVX/UlZZLXFbZskWcYhEVLqKbV5IE0FqJ2q5VR72xDLbwT2rklq9n57/eBvK65vYDQ==
+length: 1361
+-->
