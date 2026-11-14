@@ -6,19 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.12</title>
-      <sparkle:version>0.12.12</sparkle:version>
-      <sparkle:shortVersionString>0.12.12</sparkle:shortVersionString>
+      <title>Custa 0.12.13</title>
+      <sparkle:version>0.12.13</sparkle:version>
+      <sparkle:shortVersionString>0.12.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Nov 2026 00:44:21 +0000</pubDate>
-      <description># Custa 0.12.12
+      <pubDate>Sat, 14 Nov 2026 00:53:59 +0000</pubDate>
+      <description># Custa 0.12.13
 
-Üç nokta menüsü 0,2 saniyede açılır. İmleç düğmenin ve menünün dışına çıktığında kapanır.
+İşlem simgelerinin üzerine gelince hafif, yuvarlatılmış bir arka plan görünür.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.12/Custa-0.12.12-macos-universal.zip" length="2881084" type="application/octet-stream" sparkle:edSignature="8MzEiKiP+TqpQcEmqNtGk/mLvndxmyQu6p+9ySXS2cLZ3NxOQ6BsJhuTsg1k2tJt2qKvaxKYntjTywUMSeQsDA=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.13/Custa-0.12.13-macos-universal.zip" length="2883651" type="application/octet-stream" sparkle:edSignature="/vIA0O7Gb1kkWINK9BVClyKzkkkI/XoMekXbtW735r6cuS6fi6HGO5hT2Gfui9SDZqF4su76jZw3uaOgtOJhCg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: wxNYACmTk0OpiXVTDavEA3EXdIM91tA5YTSF9OugoWyPcV9ABzXDAq3X/TTSIJ7KtS8trq7MLUBA2yXbdqchBA==
-length: 1385
+edSignature: Sunes3H3yujjENGSyULQo4VuQDu1RsYdhRaYGqCPhF7HC+TeMkplLRGKW3143n9vXLnIG6h9e9J5yZ8Zxq3nAA==
+length: 1361
 -->
