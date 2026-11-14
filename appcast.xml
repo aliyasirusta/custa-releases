@@ -6,21 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.7</title>
-      <sparkle:version>0.12.7</sparkle:version>
-      <sparkle:shortVersionString>0.12.7</sparkle:shortVersionString>
+      <title>Custa 0.12.8</title>
+      <sparkle:version>0.12.8</sparkle:version>
+      <sparkle:shortVersionString>0.12.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 09 Nov 2026 10:47:46 +0000</pubDate>
-      <description># Custa 0.12.7
+      <pubDate>Sat, 14 Nov 2026 00:00:23 +0000</pubDate>
+      <description># Custa 0.12.8
 
-Metin satırındaki üç noktaya basınca panelin kapanması için düzeltme. Metin, görsel ve şifre işlemleri artık panelin kendi açılır görünümünde açılır. Açık işlem menüsü otomatik önizlemeyle yarışmaz ve geçmiş kopyalama kısayolları menü açıkken bekler.
+Arka plandaki ekran görüntüsü klasör taraması 3 saniyeden 15 saniyeye çıkarıldı. Spotlight bildirimleri geldikçe işlenir. Spotlight henüz bildirmediyse yeni görüntü bir sonraki klasör taramasında görünebilir. İzleme duraklatıldığında yedek tarama da durur.
 
-ZIP’i açıp Custa.app’i Uygulamalar’a elle taşıyabilir veya kurulu Custa’da Ayarlar → Güncellemeleri denetle yolunu kullanabilirsin.
+Custa’yı Uygulamalar klasöründen çalıştırıyorsan Ayarlar → Güncellemeleri denetle üzerinden yükleyebilirsin.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.7/Custa-0.12.7-macos-universal.zip" length="2617944" type="application/octet-stream" sparkle:edSignature="qhM1GOQmUuFsRHXwKR4ITHdDKlv+gQx8krw+cQ0lzcOITn0uGOJtZ67uYKH7oInb5VokH6c4oHpcDB1Le14UCg=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.8/Custa-0.12.8-macos-universal.zip" length="2618853" type="application/octet-stream" sparkle:edSignature="FYNgsgvlLbi8evRTePKvB9ZCYy3UH4Q/GlZEfbte+6vCH57f28zJy/TSyF5ceInV2HyQC6m3YNK4uLHznu4KCQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: iy33cxQXNazbU4GgWonFG/8XaRgbCL2KOwtUOEI/nh1jvAUUrDA/hOlqPqvKGoErGPBy+iPcQp+jQTRZ59w6DA==
-length: 1703
+edSignature: tCYaWu5+0FRXLycNpEKEvO8+jIny9Qe50DAyQfA4hBA4Om9iG/Mzcq6n8qWmAVU5RtLfLKZ2Ix9p9EuisKkBDw==
+length: 1674
 -->
