@@ -6,19 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.11</title>
-      <sparkle:version>0.12.11</sparkle:version>
-      <sparkle:shortVersionString>0.12.11</sparkle:shortVersionString>
+      <title>Custa 0.12.12</title>
+      <sparkle:version>0.12.12</sparkle:version>
+      <sparkle:shortVersionString>0.12.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Nov 2026 00:41:30 +0000</pubDate>
-      <description># Custa 0.12.11
+      <pubDate>Sat, 14 Nov 2026 00:44:21 +0000</pubDate>
+      <description># Custa 0.12.12
 
-Başarılı aktarımdan sonra eski şifreleri aktar bölümü gizlenir. Daha önce aktarım yaptıysan Gizle düğmesini kullanabilirsin.
+Üç nokta menüsü 0,2 saniyede açılır. İmleç düğmenin ve menünün dışına çıktığında kapanır.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.11/Custa-0.12.11-macos-universal.zip" length="2876110" type="application/octet-stream" sparkle:edSignature="xkrpTOyfmlmsDQV/qRLIjdRdsIBh91wuFNVo91fMOHvzQkhjsa5ZwZ7wCkR/n1igW6oIK6zKm0+sr66+g9++Aw=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.12/Custa-0.12.12-macos-universal.zip" length="2881084" type="application/octet-stream" sparkle:edSignature="8MzEiKiP+TqpQcEmqNtGk/mLvndxmyQu6p+9ySXS2cLZ3NxOQ6BsJhuTsg1k2tJt2qKvaxKYntjTywUMSeQsDA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: s7SqqpFpBYsveyiO/UtUHY9VKos7I3lUUv6cLYdV9NnnPmUqGVsM44Sqyc6fLO/tqxJGKGHgO6QlJUqfKc24CQ==
-length: 1411
+edSignature: wxNYACmTk0OpiXVTDavEA3EXdIM91tA5YTSF9OugoWyPcV9ABzXDAq3X/TTSIJ7KtS8trq7MLUBA2yXbdqchBA==
+length: 1385
 -->
