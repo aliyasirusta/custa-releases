@@ -6,21 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/aliyasirusta/custa-releases/releases</link>
     <description>Custa macOS uygulaması için imzalı güncellemeler.</description>
     <item>
-      <title>Custa 0.12.10</title>
-      <sparkle:version>0.12.10</sparkle:version>
-      <sparkle:shortVersionString>0.12.10</sparkle:shortVersionString>
+      <title>Custa 0.12.11</title>
+      <sparkle:version>0.12.11</sparkle:version>
+      <sparkle:shortVersionString>0.12.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 14 Nov 2026 00:33:36 +0000</pubDate>
-      <description># Custa 0.12.10
+      <pubDate>Sat, 14 Nov 2026 00:41:30 +0000</pubDate>
+      <description># Custa 0.12.11
 
-Üç noktanın üzerinde kısa süre bekleyerek veya tıklayarak işlemleri açabilirsin. İşlemler küçük simgelerle gösterilir. Her simgenin adı araç ipucunda görünür.
-
-Şifreler pano geçmişi gibi yerelde şifrelenmeden saklanır. Şifreler sekmesi açılırken Anahtar Zinciri erişimi yapılmaz. Eski kayıtları almak için Şifreler → Eski şifreleri aktar seçeneğini kullanabilirsin. macOS aktarım sırasında erişim izni isteyebilir.
+Başarılı aktarımdan sonra eski şifreleri aktar bölümü gizlenir. Daha önce aktarım yaptıysan Gizle düğmesini kullanabilirsin.
 </description>
-      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.10/Custa-0.12.10-macos-universal.zip" length="2873816" type="application/octet-stream" sparkle:edSignature="wotuaIjhl5JVo5FRKRb2TiViLhMHslyUW7s6DSNPkWZNyHL8yNV69CJOCg32a4tllUM2oliMChM1EqMWyvizAA=="></enclosure>
+      <enclosure url="https://github.com/aliyasirusta/custa-releases/releases/download/v0.12.11/Custa-0.12.11-macos-universal.zip" length="2876110" type="application/octet-stream" sparkle:edSignature="xkrpTOyfmlmsDQV/qRLIjdRdsIBh91wuFNVo91fMOHvzQkhjsa5ZwZ7wCkR/n1igW6oIK6zKm0+sr66+g9++Aw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CfDtVly/h3NYQOYeQCPO7qpLZOr8cAmI7caaPdOaD3YtlZ36YRSWE4flpee85I1XpTqW1kLOAi6TM8BZd1YGDA==
-length: 1732
+edSignature: s7SqqpFpBYsveyiO/UtUHY9VKos7I3lUUv6cLYdV9NnnPmUqGVsM44Sqyc6fLO/tqxJGKGHgO6QlJUqfKc24CQ==
+length: 1411
 -->
